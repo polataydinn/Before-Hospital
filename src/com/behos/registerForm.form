@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.behos.registerForm">
+  <grid id="27dc6" binding="registerPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="600" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-9128974"/>
+      <minimumSize width="500" height="400"/>
+      <preferredSize width="600" height="500"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e483d" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-879266"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e3879" class="javax.swing.JLabel" binding="registerPicLabel" custom-create="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="&#10;"/>
+            </properties>
+          </component>
+          <component id="aa54" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="10" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="efdbf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="TC No"/>
+            </properties>
+          </component>
+          <component id="6ca47" class="javax.swing.JButton" binding="girişButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Giriş"/>
+            </properties>
+          </component>
+          <component id="37d1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="     "/>
+            </properties>
+          </component>
+          <component id="14679" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="18"/>
+              <text value="Zaten Üyeyseniz Giriş Yapın"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a772d" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-9128974"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="25965" class="javax.swing.JTextField" binding="adSoyad">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="27071" class="javax.swing.JTextField" binding="tcNo">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="2cb7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Ad Soyad"/>
+            </properties>
+          </component>
+          <component id="42057" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="TC No"/>
+            </properties>
+          </component>
+          <component id="a51fc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Cinsiyet"/>
+            </properties>
+          </component>
+          <component id="a3df" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Yaş"/>
+            </properties>
+          </component>
+          <component id="244dc" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Kilo"/>
+            </properties>
+          </component>
+          <component id="923eb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Boy (Cm)"/>
+            </properties>
+          </component>
+          <component id="b03d6" class="javax.swing.JComboBox" binding="cinsiyetComboBox">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Bay"/>
+                <item value="Bayan"/>
+              </model>
+            </properties>
+          </component>
+          <component id="921a2" class="javax.swing.JComboBox" binding="yasComboBox">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="13"/>
+                <item value="14"/>
+                <item value="15"/>
+                <item value="16"/>
+                <item value="17"/>
+                <item value="18"/>
+                <item value="19"/>
+                <item value="20"/>
+                <item value="21"/>
+                <item value="22"/>
+                <item value="23"/>
+                <item value="24"/>
+                <item value="25"/>
+                <item value="26"/>
+                <item value="27"/>
+                <item value="28"/>
+                <item value="29"/>
+                <item value="30"/>
+                <item value="31"/>
+                <item value="32"/>
+                <item value="33"/>
+                <item value="34"/>
+                <item value="35"/>
+                <item value="36"/>
+                <item value="37"/>
+                <item value="38"/>
+                <item value="39"/>
+                <item value="40"/>
+                <item value="41"/>
+                <item value="42"/>
+                <item value="43"/>
+                <item value="44"/>
+                <item value="45"/>
+                <item value="46"/>
+                <item value="47"/>
+                <item value="48"/>
+                <item value="49"/>
+                <item value="50"/>
+                <item value="51"/>
+                <item value="52"/>
+                <item value="53"/>
+                <item value="54"/>
+                <item value="55"/>
+                <item value="56"/>
+                <item value="57"/>
+                <item value="58"/>
+                <item value="59"/>
+                <item value="60"/>
+                <item value="61"/>
+                <item value="62"/>
+                <item value="63"/>
+                <item value="64"/>
+                <item value="65"/>
+                <item value="66"/>
+                <item value="67"/>
+                <item value="68"/>
+                <item value="69"/>
+                <item value="70"/>
+                <item value="71"/>
+                <item value="72"/>
+                <item value="73"/>
+                <item value="74"/>
+                <item value="75"/>
+                <item value="76"/>
+                <item value="77"/>
+                <item value="78"/>
+                <item value="79"/>
+                <item value="80"/>
+                <item value="81"/>
+                <item value="82"/>
+                <item value="83"/>
+                <item value="84"/>
+                <item value="85"/>
+                <item value="86"/>
+                <item value="87"/>
+                <item value="88"/>
+                <item value="89"/>
+                <item value="90"/>
+                <item value="91"/>
+                <item value="92"/>
+                <item value="93"/>
+                <item value="94"/>
+                <item value="95"/>
+                <item value="96"/>
+                <item value="97"/>
+                <item value="98"/>
+                <item value="99"/>
+                <item value="100"/>
+              </model>
+            </properties>
+          </component>
+          <component id="cd33c" class="javax.swing.JComboBox" binding="kiloComboBox">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="30"/>
+                <item value="31"/>
+                <item value="32"/>
+                <item value="33"/>
+                <item value="34"/>
+                <item value="35"/>
+                <item value="36"/>
+                <item value="37"/>
+                <item value="38"/>
+                <item value="39"/>
+                <item value="40"/>
+                <item value="41"/>
+                <item value="42"/>
+                <item value="43"/>
+                <item value="44"/>
+                <item value="45"/>
+                <item value="46"/>
+                <item value="47"/>
+                <item value="48"/>
+                <item value="49"/>
+                <item value="50"/>
+                <item value="51"/>
+                <item value="52"/>
+                <item value="53"/>
+                <item value="54"/>
+                <item value="55"/>
+                <item value="56"/>
+                <item value="57"/>
+                <item value="58"/>
+                <item value="59"/>
+                <item value="60"/>
+                <item value="61"/>
+                <item value="62"/>
+                <item value="63"/>
+                <item value="64"/>
+                <item value="65"/>
+                <item value="66"/>
+                <item value="67"/>
+                <item value="68"/>
+                <item value="69"/>
+                <item value="70"/>
+                <item value="71"/>
+                <item value="72"/>
+                <item value="73"/>
+                <item value="74"/>
+                <item value="75"/>
+                <item value="76"/>
+                <item value="77"/>
+                <item value="78"/>
+                <item value="79"/>
+                <item value="80"/>
+                <item value="81"/>
+                <item value="82"/>
+                <item value="83"/>
+                <item value="84"/>
+                <item value="85"/>
+                <item value="86"/>
+                <item value="87"/>
+                <item value="88"/>
+                <item value="89"/>
+                <item value="90"/>
+                <item value="91"/>
+                <item value="92"/>
+                <item value="93"/>
+                <item value="94"/>
+                <item value="95"/>
+                <item value="96"/>
+                <item value="97"/>
+                <item value="98"/>
+                <item value="99"/>
+                <item value="100"/>
+                <item value="101"/>
+                <item value="102"/>
+                <item value="103"/>
+                <item value="104"/>
+                <item value="105"/>
+                <item value="106"/>
+                <item value="107"/>
+                <item value="108"/>
+                <item value="109"/>
+                <item value="110"/>
+                <item value="111"/>
+                <item value="112"/>
+                <item value="113"/>
+                <item value="114"/>
+                <item value="115"/>
+                <item value="116"/>
+                <item value="117"/>
+                <item value="118"/>
+                <item value="119"/>
+                <item value="120"/>
+                <item value="121"/>
+                <item value="122"/>
+                <item value="123"/>
+                <item value="124"/>
+                <item value="125"/>
+                <item value="126"/>
+                <item value="127"/>
+                <item value="128"/>
+                <item value="129"/>
+                <item value="130"/>
+                <item value="131"/>
+                <item value="132"/>
+                <item value="133"/>
+                <item value="134"/>
+                <item value="135"/>
+                <item value="136"/>
+                <item value="137"/>
+                <item value="138"/>
+                <item value="139"/>
+                <item value="140"/>
+                <item value="141"/>
+                <item value="142"/>
+                <item value="143"/>
+                <item value="144"/>
+                <item value="145"/>
+                <item value="146"/>
+                <item value="147"/>
+                <item value="148"/>
+                <item value="149"/>
+                <item value="150"/>
+                <item value="151"/>
+                <item value="152"/>
+                <item value="153"/>
+                <item value="154"/>
+                <item value="155"/>
+                <item value="156"/>
+                <item value="157"/>
+                <item value="158"/>
+                <item value="159"/>
+                <item value="160"/>
+                <item value="161"/>
+                <item value="162"/>
+                <item value="163"/>
+                <item value="164"/>
+                <item value="165"/>
+                <item value="166"/>
+                <item value="167"/>
+                <item value="168"/>
+                <item value="169"/>
+                <item value="170"/>
+                <item value="171"/>
+                <item value="172"/>
+                <item value="173"/>
+                <item value="174"/>
+                <item value="175"/>
+                <item value="176"/>
+                <item value="177"/>
+                <item value="178"/>
+                <item value="179"/>
+                <item value="180"/>
+                <item value="181"/>
+                <item value="182"/>
+                <item value="183"/>
+                <item value="184"/>
+                <item value="185"/>
+                <item value="186"/>
+                <item value="187"/>
+                <item value="188"/>
+                <item value="189"/>
+                <item value="190"/>
+                <item value="191"/>
+                <item value="192"/>
+                <item value="193"/>
+                <item value="194"/>
+                <item value="195"/>
+                <item value="196"/>
+                <item value="197"/>
+                <item value="198"/>
+                <item value="199"/>
+              </model>
+            </properties>
+          </component>
+          <component id="7c46" class="javax.swing.JComboBox" binding="boyComboBox">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="70"/>
+                <item value="71"/>
+                <item value="72"/>
+                <item value="73"/>
+                <item value="74"/>
+                <item value="75"/>
+                <item value="76"/>
+                <item value="77"/>
+                <item value="78"/>
+                <item value="79"/>
+                <item value="80"/>
+                <item value="81"/>
+                <item value="82"/>
+                <item value="83"/>
+                <item value="84"/>
+                <item value="85"/>
+                <item value="86"/>
+                <item value="87"/>
+                <item value="88"/>
+                <item value="89"/>
+                <item value="90"/>
+                <item value="91"/>
+                <item value="92"/>
+                <item value="93"/>
+                <item value="94"/>
+                <item value="95"/>
+                <item value="96"/>
+                <item value="97"/>
+                <item value="98"/>
+                <item value="99"/>
+                <item value="100"/>
+                <item value="101"/>
+                <item value="102"/>
+                <item value="103"/>
+                <item value="104"/>
+                <item value="105"/>
+                <item value="106"/>
+                <item value="107"/>
+                <item value="108"/>
+                <item value="109"/>
+                <item value="110"/>
+                <item value="111"/>
+                <item value="112"/>
+                <item value="113"/>
+                <item value="114"/>
+                <item value="115"/>
+                <item value="116"/>
+                <item value="117"/>
+                <item value="118"/>
+                <item value="119"/>
+                <item value="120"/>
+                <item value="121"/>
+                <item value="122"/>
+                <item value="123"/>
+                <item value="124"/>
+                <item value="125"/>
+                <item value="126"/>
+                <item value="127"/>
+                <item value="128"/>
+                <item value="129"/>
+                <item value="130"/>
+                <item value="131"/>
+                <item value="132"/>
+                <item value="133"/>
+                <item value="134"/>
+                <item value="135"/>
+                <item value="136"/>
+                <item value="137"/>
+                <item value="138"/>
+                <item value="139"/>
+                <item value="140"/>
+                <item value="141"/>
+                <item value="142"/>
+                <item value="143"/>
+                <item value="144"/>
+                <item value="145"/>
+                <item value="146"/>
+                <item value="147"/>
+                <item value="148"/>
+                <item value="149"/>
+                <item value="150"/>
+                <item value="151"/>
+                <item value="152"/>
+                <item value="153"/>
+                <item value="154"/>
+                <item value="155"/>
+                <item value="156"/>
+                <item value="157"/>
+                <item value="158"/>
+                <item value="159"/>
+                <item value="160"/>
+                <item value="161"/>
+                <item value="162"/>
+                <item value="163"/>
+                <item value="164"/>
+                <item value="165"/>
+                <item value="166"/>
+                <item value="167"/>
+                <item value="168"/>
+                <item value="169"/>
+                <item value="170"/>
+                <item value="171"/>
+                <item value="172"/>
+                <item value="173"/>
+                <item value="174"/>
+                <item value="175"/>
+                <item value="176"/>
+                <item value="177"/>
+                <item value="178"/>
+                <item value="179"/>
+                <item value="180"/>
+                <item value="181"/>
+                <item value="182"/>
+                <item value="183"/>
+                <item value="184"/>
+                <item value="185"/>
+                <item value="186"/>
+                <item value="187"/>
+                <item value="188"/>
+                <item value="189"/>
+                <item value="190"/>
+                <item value="191"/>
+                <item value="192"/>
+                <item value="193"/>
+                <item value="194"/>
+                <item value="195"/>
+                <item value="196"/>
+                <item value="197"/>
+                <item value="198"/>
+                <item value="199"/>
+                <item value="200"/>
+                <item value="201"/>
+                <item value="202"/>
+                <item value="203"/>
+                <item value="204"/>
+                <item value="205"/>
+                <item value="206"/>
+                <item value="207"/>
+                <item value="208"/>
+                <item value="209"/>
+                <item value="210"/>
+                <item value="211"/>
+                <item value="212"/>
+                <item value="213"/>
+                <item value="214"/>
+                <item value="215"/>
+                <item value="216"/>
+                <item value="217"/>
+                <item value="218"/>
+                <item value="219"/>
+                <item value="220"/>
+                <item value="221"/>
+                <item value="222"/>
+                <item value="223"/>
+                <item value="224"/>
+                <item value="225"/>
+                <item value="226"/>
+                <item value="227"/>
+                <item value="228"/>
+                <item value="229"/>
+                <item value="230"/>
+                <item value="231"/>
+                <item value="232"/>
+                <item value="233"/>
+                <item value="234"/>
+                <item value="235"/>
+                <item value="236"/>
+                <item value="237"/>
+                <item value="238"/>
+                <item value="239"/>
+                <item value="240"/>
+                <item value="241"/>
+                <item value="242"/>
+                <item value="243"/>
+                <item value="244"/>
+                <item value="245"/>
+                <item value="246"/>
+                <item value="247"/>
+                <item value="248"/>
+                <item value="249"/>
+              </model>
+            </properties>
+          </component>
+          <component id="a7db" class="javax.swing.JButton" binding="kayıtOlButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Kayıt Ol"/>
+            </properties>
+          </component>
+          <component id="3702" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
