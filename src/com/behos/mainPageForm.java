@@ -18,6 +18,9 @@ public class mainPageForm extends JFrame{
     private JLabel kiloLabel;
     private JLabel boyLabel;
     private JLabel boyKiloEndeksi;
+    private JButton genelButton;
+    private JButton kafaButton;
+    private JButton gövdeButton;
 
     public mainPageForm(String baslik){
         super(baslik);
