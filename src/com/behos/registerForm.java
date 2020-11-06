@@ -23,18 +23,17 @@ public class registerForm extends JFrame{
     private JTextField tcGiris;
     private JButton girişButton;
     public static Connection baglan;
-    public ResultSet results;
 
 
     //Sql Bağlantısını Açmak için gerekli fonksiyon
     public static void baglantiAc(){
         try{
-        Class.forName("com.mysql.jdbc.Driver");
-        String url = "jdbc:mysql://localhost:3306/kullanici_bilgileri";
-        String kullaniciAdi = "root";
-        String sifre = "";
-        baglan = DriverManager.getConnection(url,kullaniciAdi,sifre);
-      //  JOptionPane.showMessageDialog(null,"Baglantı Başarılı");
+            Class.forName("com.mysql.jdbc.Driver");
+            String url = "jdbc:mysql://localhost:3306/kullanici_bilgileri";
+            String kullaniciAdi = "root";
+            String sifre = "";
+            baglan = DriverManager.getConnection(url,kullaniciAdi,sifre);
+            //  JOptionPane.showMessageDialog(null,"Baglantı Başarılı");
         }
         catch (Exception e){
             JOptionPane.showMessageDialog(null,"Bağlantı Başarısız!");
@@ -44,7 +43,7 @@ public class registerForm extends JFrame{
     public static void baglantiKapat(){
         try{
             baglan.close();
-           // JOptionPane.showMessageDialog(null,"Bağlantı Başarıyla Kapatıldı");
+            // JOptionPane.showMessageDialog(null,"Bağlantı Başarıyla Kapatıldı");
         }
         catch (Exception e){
             JOptionPane.showMessageDialog(null,"Bağlantı Kapatılamadı!");
@@ -70,24 +69,38 @@ public class registerForm extends JFrame{
 
         }
         catch (SQLException e){
-        JOptionPane.showMessageDialog(null,"Hata Oluştu!  " + e);
+            JOptionPane.showMessageDialog(null,"Hata Oluştu!  " + e);
+        }
+    }
+
+    public void kullaniciBilgileriKaydet(){
+        try {
+            CONST.userAdıSoyadı = CONST.results.getString("ad_soyad");
+            CONST.userTcNo = Long.parseLong(CONST.results.getString("tc_no"));
+            CONST.userCinsiyet =Integer.parseInt(CONST.results.getString("cinsiyet"));
+            CONST.userYas =Integer.parseInt(CONST.results.getString("yas"));
+            CONST.userKilo =Integer.parseInt(CONST.results.getString("kilo"));
+            CONST.userBoy =Integer.parseInt(CONST.results.getString("boy"));
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
         }
     }
 
     // Uygulamaya TC ile Giriş yapabilmek için yapılan fonksiyon
-    public void bul(){
-        Long tcLogin = Long.parseLong(tcGiris.getText());
-        String bul_komutu = "select* from bilgiler where tc_no="+tcLogin;
+    public void bul(String login){
+        String bul_komutu = "select* from bilgiler where tc_no="+login;
         try{
             Statement statement = baglan.createStatement();
-            results = statement.executeQuery(bul_komutu);
-            results.next();
-            JOptionPane.showMessageDialog(null,"Giriş Başarılı.. Hoşgeldin " + results.getString("ad_soyad"));
+            CONST.results = statement.executeQuery(bul_komutu);
+            CONST.results.next();
+            CONST.isLoginSuccesfull = true;
+            kullaniciBilgileriKaydet();
         }
         catch (SQLException e){
             JOptionPane.showMessageDialog(null,"Hatalı Tc Kimlik Numarası");
         }
     }
+
 
 
     //Class'ın constructor'ı
@@ -107,8 +120,17 @@ public class registerForm extends JFrame{
         girişButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                CONST.guncelKullanici = tcGiris.getText();
                 baglantiAc();
-                bul();
+                bul(CONST.guncelKullanici);
+                if(CONST.isLoginSuccesfull) {
+                    try {
+                        JOptionPane.showMessageDialog(null, "Giriş Başarılı.. Hoşgeldin " + CONST.results.getString("ad_soyad"));
+                    } catch (SQLException throwables) {
+                        throwables.printStackTrace();
+                    }
+                }
+                mainPageForm.frameCalistir();
                 baglantiKapat();
             }
         });
@@ -117,10 +139,10 @@ public class registerForm extends JFrame{
     public static void main(String[] args){
         JFrame frame = new registerForm("Giriş Ekranı");
         frame.setVisible(true);
-      }
+    }
 
 
-     //Custom Create Modun fonksiyonu
+    //Custom Create Modun fonksiyonu
     private void createUIComponents() {
         // TODO: place custom component creation code here
         registerPicLabel = new JLabel(new ImageIcon("iconFiles/group.png"));
