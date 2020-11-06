@@ -11,6 +11,6 @@ public class CONST {
     public static int userCinsiyet;
     public static int userYas;
     public static int userKilo;
-    public static int userBoy;
+    public static float userBoy;
 
 }
