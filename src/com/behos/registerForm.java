@@ -4,13 +4,16 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
 import javax.swing.*;
 
 public class registerForm extends JFrame{
+    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/kullanici_bilgileri";
+    static final String USER = "root";
+    static final String PASS = "";
     private JPanel registerPanel;
     private JLabel registerPicLabel;
     private JTextField adSoyad;
@@ -28,11 +31,8 @@ public class registerForm extends JFrame{
     //Sql Bağlantısını Açmak için gerekli fonksiyon
     public static void baglantiAc(){
         try{
-            Class.forName("com.mysql.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/kullanici_bilgileri";
-            String kullaniciAdi = "root";
-            String sifre = "";
-            baglan = DriverManager.getConnection(url,kullaniciAdi,sifre);
+            Class.forName(JDBC_DRIVER);
+            baglan = DriverManager.getConnection(DB_URL,USER,PASS);
             //  JOptionPane.showMessageDialog(null,"Baglantı Başarılı");
         }
         catch (Exception e){

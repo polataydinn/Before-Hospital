@@ -12,5 +12,6 @@ public class CONST {
     public static int userYas;
     public static int userKilo;
     public static float userBoy;
+    public static float koronaTanıOran = 100f;
 
 }

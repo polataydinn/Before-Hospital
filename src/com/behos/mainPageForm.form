@@ -1,40 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.behos.mainPageForm">
-  <grid id="27dc6" binding="mainPagePanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="mainPagePanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="850" height="550"/>
+      <xy x="20" y="20" width="1500" height="1500"/>
     </constraints>
     <properties>
-      <minimumSize width="850" height="550"/>
-      <opaque value="false"/>
-      <preferredSize width="850" height="550"/>
+      <alignmentX value="1.0"/>
+      <alignmentY value="1.0"/>
+      <autoscrolls value="false"/>
+      <background color="-875614"/>
+      <focusable value="false"/>
+      <minimumSize width="850" height="1200"/>
+      <opaque value="true"/>
+      <preferredSize width="850" height="1200"/>
     </properties>
     <border type="none"/>
     <children>
-      <grid id="3049" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+      <grid id="3049" binding="soruPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
           <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
-        <border type="none"/>
-        <children/>
-      </grid>
-      <grid id="6e8e7" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-        <margin top="0" left="0" bottom="0" right="0"/>
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties/>
+        <properties>
+          <background color="-875614"/>
+        </properties>
         <border type="none"/>
         <children>
-          <grid id="ad3f4" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+          <component id="22690" class="javax.swing.JButton" binding="hesaplaBakemButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Hesapla Bakem"/>
+            </properties>
+          </component>
+          <vspacer id="510a8">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="6e8e7" layout-manager="GridLayoutManager" row-count="27" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="746" height="299"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-875614"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="ad3f4" layout-manager="GridLayoutManager" row-count="1" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
             <margin top="0" left="0" bottom="0" right="0"/>
             <constraints>
-              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="0" row-span="15" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
-            <properties/>
+            <properties>
+              <background color="-861124"/>
+              <foreground color="-875614"/>
+            </properties>
             <border type="none"/>
             <children>
               <grid id="999f3" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
@@ -42,7 +70,10 @@
                 <constraints>
                   <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                 </constraints>
-                <properties/>
+                <properties>
+                  <background color="-861124"/>
+                  <foreground color="-875614"/>
+                </properties>
                 <border type="none"/>
                 <children>
                   <component id="90711" class="javax.swing.JLabel" binding="avatar" custom-create="true">
@@ -86,7 +117,10 @@
                 <constraints>
                   <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
                 </constraints>
-                <properties/>
+                <properties>
+                  <background color="-861124"/>
+                  <foreground color="-875614"/>
+                </properties>
                 <border type="none"/>
                 <children>
                   <component id="819a6" class="javax.swing.JLabel">
@@ -187,60 +221,27 @@
                   </component>
                 </children>
               </grid>
-            </children>
-          </grid>
-          <grid id="49249" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-            <margin top="0" left="0" bottom="0" right="0"/>
-            <constraints>
-              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties/>
-            <border type="none"/>
-            <children>
-              <component id="4fd8f" class="javax.swing.JLabel">
+              <vspacer id="8f2cd">
                 <constraints>
-                  <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <hspacer id="bd3f6">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="ab75e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
-                  <font size="22" style="1"/>
-                  <text value="Sorununuz Hangi Bölümde"/>
+                  <text value=""/>
                 </properties>
               </component>
-              <component id="a6406" class="javax.swing.JButton" binding="genelButton" default-binding="true">
+              <component id="7b45b" class="javax.swing.JLabel">
                 <constraints>
-                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <text value="Genel"/>
-                </properties>
-              </component>
-              <component id="1954" class="javax.swing.JButton" default-binding="true">
-                <constraints>
-                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <text value="Sırt"/>
-                </properties>
-              </component>
-              <component id="b5fe2" class="javax.swing.JButton" binding="kafaButton" default-binding="true">
-                <constraints>
-                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <text value="Kafa"/>
-                </properties>
-              </component>
-              <component id="264c" class="javax.swing.JButton" binding="gövdeButton" default-binding="true">
-                <constraints>
-                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-                </constraints>
-                <properties>
-                  <text value="Gövde"/>
-                </properties>
-              </component>
-              <component id="a8073" class="javax.swing.JLabel">
-                <constraints>
-                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
                 </constraints>
                 <properties>
                   <text value=""/>
@@ -248,8 +249,350 @@
               </component>
             </children>
           </grid>
+          <hspacer id="daf2c">
+            <constraints>
+              <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="81ca5" class="javax.swing.JComboBox" binding="yorgunlukDeger2">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Yok"/>
+                <item value="Nadiren"/>
+                <item value="Bazen"/>
+                <item value="Sık"/>
+                <item value="Şiddetli"/>
+              </model>
+            </properties>
+          </component>
+          <component id="8f0dd" class="javax.swing.JComboBox" binding="kuruOksurukDeger3">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Yok"/>
+                <item value="Nadiren"/>
+                <item value="Bazen"/>
+                <item value="Sık"/>
+                <item value="Şiddetli"/>
+              </model>
+            </properties>
+          </component>
+          <component id="6722e" class="javax.swing.JComboBox" binding="ishalDeger12">
+            <constraints>
+              <grid row="24" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Yok"/>
+                <item value="Nadiren"/>
+                <item value="Bazen"/>
+                <item value="Sık"/>
+                <item value="Şiddetli"/>
+              </model>
+            </properties>
+          </component>
+          <component id="e210b" class="javax.swing.JComboBox" binding="bogazAgrisiDeger11">
+            <constraints>
+              <grid row="22" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Yok"/>
+                <item value="Nadiren"/>
+                <item value="Bazen"/>
+                <item value="Sık"/>
+                <item value="Şiddetli"/>
+              </model>
+            </properties>
+          </component>
+          <component id="da814" class="javax.swing.JComboBox" binding="atesDeger1">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Yok"/>
+                <item value="Nadiren"/>
+                <item value="Bazen"/>
+                <item value="Sık"/>
+                <item value="Şiddetli"/>
+              </model>
+            </properties>
+          </component>
+          <component id="c6e7e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18" style="1"/>
+              <text value="Ateş"/>
+            </properties>
+          </component>
+          <component id="ee627" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18" style="1"/>
+              <text value="Yorgunluk"/>
+            </properties>
+          </component>
+          <component id="b5f34" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18" style="1"/>
+              <text value="Kuru Öksürük"/>
+            </properties>
+          </component>
+          <component id="e5195" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="21" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18" style="1"/>
+              <text value="Boğaz Ağrısı"/>
+            </properties>
+          </component>
+          <component id="673c3" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="23" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18" style="1"/>
+              <text value="İshal"/>
+            </properties>
+          </component>
+          <component id="96919" class="javax.swing.JComboBox" binding="solunumDeger4">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Yok"/>
+                <item value="Nadiren"/>
+                <item value="Bazen"/>
+                <item value="Sık"/>
+                <item value="Şiddetli"/>
+              </model>
+            </properties>
+          </component>
+          <component id="388a3" class="javax.swing.JComboBox" binding="gozlerdeSulanmaDeger10">
+            <constraints>
+              <grid row="20" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Yok"/>
+                <item value="Nadiren"/>
+                <item value="Bazen"/>
+                <item value="Sık"/>
+                <item value="Şiddetli"/>
+              </model>
+            </properties>
+          </component>
+          <component id="74d50" class="javax.swing.JComboBox" binding="oksurukDeger5">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Yok"/>
+                <item value="Nadiren"/>
+                <item value="Bazen"/>
+                <item value="Sık"/>
+                <item value="Şiddetli"/>
+              </model>
+            </properties>
+          </component>
+          <component id="c9f82" class="javax.swing.JComboBox" binding="burunTikanikliğiDeger9">
+            <constraints>
+              <grid row="18" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Yok"/>
+                <item value="Nadiren"/>
+                <item value="Bazen"/>
+                <item value="Sık"/>
+                <item value="Şiddetli"/>
+              </model>
+            </properties>
+          </component>
+          <component id="f4b6f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18" style="1"/>
+              <text value="Solunum Zorluğı"/>
+            </properties>
+          </component>
+          <component id="34363" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <font size="18" style="1"/>
+              <text value="Öksürük"/>
+            </properties>
+          </component>
+          <component id="3647c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18" style="1"/>
+              <text value="Burun Tıkanıklığı"/>
+            </properties>
+          </component>
+          <component id="4e09d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="19" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <font size="18" style="1"/>
+              <text value="Gözlerde Sulanma"/>
+            </properties>
+          </component>
+          <component id="3f2b2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18" style="1"/>
+              <text value="Ağrı"/>
+            </properties>
+          </component>
+          <component id="5fbba" class="javax.swing.JComboBox" binding="agriDeger6">
+            <constraints>
+              <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Yok"/>
+                <item value="Nadiren"/>
+                <item value="Bazen"/>
+                <item value="Sık"/>
+                <item value="Şiddetli"/>
+              </model>
+            </properties>
+          </component>
+          <component id="5265" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18" style="1"/>
+              <text value="Burun Akıntısı"/>
+            </properties>
+          </component>
+          <component id="de0" class="javax.swing.JComboBox" binding="burunAkintisiDeger8">
+            <constraints>
+              <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Yok"/>
+                <item value="Nadiren"/>
+                <item value="Bazen"/>
+                <item value="Sık"/>
+                <item value="Şiddetli"/>
+              </model>
+            </properties>
+          </component>
+          <component id="1acc2" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18" style="1"/>
+              <text value="Hapşırma"/>
+            </properties>
+          </component>
+          <component id="80677" class="javax.swing.JComboBox" binding="hapsirmaDeger7">
+            <constraints>
+              <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Yok"/>
+                <item value="Nadiren"/>
+                <item value="Bazen"/>
+                <item value="Sık"/>
+                <item value="Şiddetli"/>
+              </model>
+            </properties>
+          </component>
+          <component id="b115a" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="25" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="49249" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="15" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-861124"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="f5c21" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="18" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-861124"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="1ddef" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="21" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-861124"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="663e9" layout-manager="CardLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="24" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-861124"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
         </children>
       </grid>
+      <component id="f9093" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

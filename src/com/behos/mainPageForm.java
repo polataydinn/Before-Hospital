@@ -1,12 +1,13 @@
 package com.behos;
 
-import com.sun.javaws.util.JfxHelper;
+
+import com.sun.xml.internal.messaging.saaj.soap.JpegDataContentHandler;
 
 import javax.swing.*;
-import javax.xml.soap.Text;
-import java.awt.*;
-import java.sql.Connection;
-import java.sql.SQLException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+
 
 public class mainPageForm extends JFrame{
 
@@ -18,9 +19,21 @@ public class mainPageForm extends JFrame{
     private JLabel kiloLabel;
     private JLabel boyLabel;
     private JLabel boyKiloEndeksi;
-    private JButton genelButton;
-    private JButton kafaButton;
-    private JButton gövdeButton;
+    private JPanel soruPanel;
+    private JComboBox atesDeger1;
+    private JComboBox yorgunlukDeger2;
+    private JComboBox kuruOksurukDeger3;
+    private JComboBox solunumDeger4;
+    private JComboBox oksurukDeger5;
+    private JComboBox agriDeger6;
+    private JComboBox hapsirmaDeger7;
+    private JComboBox burunAkintisiDeger8;
+    private JComboBox burunTikanikliğiDeger9;
+    private JComboBox gozlerdeSulanmaDeger10;
+    private JComboBox bogazAgrisiDeger11;
+    private JComboBox ishalDeger12;
+    private JButton hesaplaBakemButton;
+
 
     public mainPageForm(String baslik){
         super(baslik);
@@ -35,12 +48,34 @@ public class mainPageForm extends JFrame{
         float boyFloat = CONST.userBoy/100;
         float vke  = CONST.userKilo/(boyFloat*boyFloat);
         boyKiloEndeksi.setText(String.valueOf(vke));
+
+        hesaplaBakemButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                diseaseDiagnosis.koronaTaniOrani(atesDeger1.getSelectedIndex(),
+                        yorgunlukDeger2.getSelectedIndex(),
+                        kuruOksurukDeger3.getSelectedIndex(),
+                        solunumDeger4.getSelectedIndex(),
+                        oksurukDeger5.getSelectedIndex(),
+                        agriDeger6.getSelectedIndex(),
+                        hapsirmaDeger7.getSelectedIndex(),
+                        burunAkintisiDeger8.getSelectedIndex(),
+                        burunTikanikliğiDeger9.getSelectedIndex(),
+                        gozlerdeSulanmaDeger10.getSelectedIndex(),
+                        bogazAgrisiDeger11.getSelectedIndex(),
+                        ishalDeger12.getSelectedIndex());
+
+                JOptionPane.showMessageDialog(null,"oran : "+CONST.koronaTanıOran);
+            }
+        });
     }
 
 
     public static void frameCalistir(){
         JFrame mainFrame = new mainPageForm("Hastane Öncesi Tanı Modülü");
+        mainFrame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         mainFrame.setVisible(true);
+       // mainFrame.setUndecorated(true);
 
     }
 
