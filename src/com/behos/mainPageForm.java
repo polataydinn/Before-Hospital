@@ -1,8 +1,6 @@
 package com.behos;
 
 
-import com.sun.xml.internal.messaging.saaj.soap.JpegDataContentHandler;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -33,6 +31,14 @@ public class mainPageForm extends JFrame{
     private JComboBox bogazAgrisiDeger11;
     private JComboBox ishalDeger12;
     private JButton hesaplaBakemButton;
+    private JLabel sonucIsimLabel4;
+    private JLabel sonucIsimLabel3;
+    private JLabel sonucIsimLabel2;
+    private JLabel sonucIsimLabel1;
+    private JLabel sonucLabel4;
+    private JLabel sonucLabel3;
+    private JLabel sonucLabel2;
+    private JLabel sonucLabel1;
 
 
     public mainPageForm(String baslik){
@@ -40,7 +46,7 @@ public class mainPageForm extends JFrame{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setContentPane(mainPagePanel);
         this.pack();
-        kullaniciAdi.setText(CONST.userAdıSoyadı);
+        kullaniciAdi.setText(CONST.userAdiSoyadi);
         tcLabel.setText(CONST.userTcNo.toString());
         yasLabel.setText(String.valueOf(CONST.userYas));
         kiloLabel.setText(String.valueOf(CONST.userKilo));
@@ -64,11 +70,68 @@ public class mainPageForm extends JFrame{
                         gozlerdeSulanmaDeger10.getSelectedIndex(),
                         bogazAgrisiDeger11.getSelectedIndex(),
                         ishalDeger12.getSelectedIndex());
+                        float koronaYuzde = CONST.hastalikTaniOran/12;
+                        CONST.hastalikTaniOran = 0f;
+                        sonucIsimLabel1.setText("Korona :");
+                        sonucLabel1.setText(String.valueOf(koronaYuzde));
 
-                JOptionPane.showMessageDialog(null,"oran : "+CONST.koronaTanıOran);
+                diseaseDiagnosis.sogukAlginligiTaniOrani(atesDeger1.getSelectedIndex(),
+                        yorgunlukDeger2.getSelectedIndex(),
+                        kuruOksurukDeger3.getSelectedIndex(),
+                        solunumDeger4.getSelectedIndex(),
+                        oksurukDeger5.getSelectedIndex(),
+                        agriDeger6.getSelectedIndex(),
+                        hapsirmaDeger7.getSelectedIndex(),
+                        burunAkintisiDeger8.getSelectedIndex(),
+                        burunTikanikliğiDeger9.getSelectedIndex(),
+                        gozlerdeSulanmaDeger10.getSelectedIndex(),
+                        bogazAgrisiDeger11.getSelectedIndex(),
+                        ishalDeger12.getSelectedIndex());
+                        float sogukAlginligiYuzde = CONST.hastalikTaniOran/12;
+                        CONST.hastalikTaniOran = 0f;
+                        sonucIsimLabel2.setText("Soğuk Algınlığı :");
+                        sonucLabel2.setText(String.valueOf(sogukAlginligiYuzde));
+
+                diseaseDiagnosis.gripTaniOrani(atesDeger1.getSelectedIndex(),
+                        yorgunlukDeger2.getSelectedIndex(),
+                        kuruOksurukDeger3.getSelectedIndex(),
+                        solunumDeger4.getSelectedIndex(),
+                        oksurukDeger5.getSelectedIndex(),
+                        agriDeger6.getSelectedIndex(),
+                        hapsirmaDeger7.getSelectedIndex(),
+                        burunAkintisiDeger8.getSelectedIndex(),
+                        burunTikanikliğiDeger9.getSelectedIndex(),
+                        gozlerdeSulanmaDeger10.getSelectedIndex(),
+                        bogazAgrisiDeger11.getSelectedIndex(),
+                        ishalDeger12.getSelectedIndex());
+                        float gripYuzde = CONST.hastalikTaniOran/12;
+                        CONST.hastalikTaniOran = 0f;
+                        sonucIsimLabel3.setText("Grip :");
+                        sonucLabel3.setText(String.valueOf(gripYuzde));
+
+
+
+                diseaseDiagnosis.alerjiTaniOrani(atesDeger1.getSelectedIndex(),
+                        yorgunlukDeger2.getSelectedIndex(),
+                        kuruOksurukDeger3.getSelectedIndex(),
+                        solunumDeger4.getSelectedIndex(),
+                        oksurukDeger5.getSelectedIndex(),
+                        agriDeger6.getSelectedIndex(),
+                        hapsirmaDeger7.getSelectedIndex(),
+                        burunAkintisiDeger8.getSelectedIndex(),
+                        burunTikanikliğiDeger9.getSelectedIndex(),
+                        gozlerdeSulanmaDeger10.getSelectedIndex(),
+                        bogazAgrisiDeger11.getSelectedIndex(),
+                        ishalDeger12.getSelectedIndex());
+                        float alerjiYuzde = CONST.hastalikTaniOran/12;
+                        CONST.hastalikTaniOran = 0f;
+                        sonucIsimLabel4.setText("Alerji :");
+                        sonucLabel4.setText(String.valueOf(alerjiYuzde));
+
             }
         });
     }
+
 
 
     public static void frameCalistir(){

@@ -75,7 +75,7 @@ public class registerForm extends JFrame{
 
     public void kullaniciBilgileriKaydet(){
         try {
-            CONST.userAdıSoyadı = CONST.results.getString("ad_soyad");
+            CONST.userAdiSoyadi = CONST.results.getString("ad_soyad");
             CONST.userTcNo = Long.parseLong(CONST.results.getString("tc_no"));
             CONST.userCinsiyet =Integer.parseInt(CONST.results.getString("cinsiyet"));
             CONST.userYas =Integer.parseInt(CONST.results.getString("yas"));

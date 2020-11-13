@@ -4,91 +4,91 @@ public class diseaseDiagnosis {
 
     public static void yokCevap(int deger){
         if(deger == 0){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 100)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 100;
         }
         if(deger == 1){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 0)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 0;
         }
         if(deger == 2){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 0)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 0;
         }
         if(deger == 3){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 0)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 0;
         }
         if(deger == 4){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 0)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 0;
         }
     }
 
     public static void nadirenCevap(int deger){
         if(deger == 0){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 50)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 50;
         }
         if(deger == 1){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 100)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 100;
         }
         if(deger == 2){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 50)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 50;
         }
         if(deger == 3){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 25)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 25;
         }
         if(deger == 4){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 0)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 0;
         }
     }
 
     public static void bazenCevap(int deger){
         if(deger == 0){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 25)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 25;
         }
         if(deger == 1){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 50)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 50;
         }
         if(deger == 2){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 100)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 100;
         }
         if(deger == 3){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 50)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 50;
         }
         if(deger == 4){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 25)/2;
+            CONST.hastalikTaniOran = CONST.hastalikTaniOran + 25;
         }
     }
 
     public static void sikCevap(int deger){
         if(deger == 0){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 0)/2;
+            CONST.hastalikTaniOran = (CONST.hastalikTaniOran + 0);
         }
         if(deger == 1){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 25)/2;
+            CONST.hastalikTaniOran = (CONST.hastalikTaniOran + 25);
         }
         if(deger == 2){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 50)/2;
+            CONST.hastalikTaniOran = (CONST.hastalikTaniOran + 50);
         }
         if(deger == 3){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 100)/2;
+            CONST.hastalikTaniOran = (CONST.hastalikTaniOran + 100);
         }
         if(deger == 4){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 50)/2;
+            CONST.hastalikTaniOran = (CONST.hastalikTaniOran + 50);
         }
     }
 
     public static void siddetliCevap(int deger){
         if(deger == 0){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 0)/2;
+            CONST.hastalikTaniOran = (CONST.hastalikTaniOran + 0);
         }
         if(deger == 1){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 25)/2;
+            CONST.hastalikTaniOran = (CONST.hastalikTaniOran + 25);
         }
         if(deger == 2){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 50)/2;
+            CONST.hastalikTaniOran = (CONST.hastalikTaniOran + 50);
         }
         if(deger == 3){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 75)/2;
+            CONST.hastalikTaniOran = (CONST.hastalikTaniOran + 75);
         }
         if(deger == 4){
-            CONST.koronaTanıOran = (CONST.koronaTanıOran + 100)/2;
+            CONST.hastalikTaniOran = (CONST.hastalikTaniOran + 100);
         }
     }
 
@@ -101,14 +101,14 @@ public class diseaseDiagnosis {
         sikCevap(deger5);
         bazenCevap(deger6);
         yokCevap(deger7);
-        sikCevap(deger8);
+        bazenCevap(deger8);
         yokCevap(deger9);
         yokCevap(deger10);
-        sikCevap(deger11);
-        sikCevap(deger12);
+        bazenCevap(deger11);
+        bazenCevap(deger12);
     }
 
-    public void sogukAlginligiTaniOrani(int deger1,int deger2,int deger3,int deger4,int deger5,int deger6,int deger7,int deger8,int deger9,int deger10,int deger11,int deger12){
+    public static void sogukAlginligiTaniOrani(int deger1,int deger2,int deger3,int deger4,int deger5,int deger6,int deger7,int deger8,int deger9,int deger10,int deger11,int deger12){
         nadirenCevap(deger1);
         bazenCevap(deger2);
         yokCevap(deger3);
@@ -138,7 +138,7 @@ public class diseaseDiagnosis {
         nadirenCevap(deger11);
     }
 
-    public void alerjiTaniOrani(int deger1,int deger2,int deger3,int deger4,int deger5,int deger6,int deger7,int deger8,int deger9,int deger10,int deger11,int deger12){
+    public static void alerjiTaniOrani(int deger1,int deger2,int deger3,int deger4,int deger5,int deger6,int deger7,int deger8,int deger9,int deger10,int deger11,int deger12){
         yokCevap(deger1);
         bazenCevap(deger2);
         bazenCevap(deger3);
