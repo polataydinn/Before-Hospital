@@ -26,7 +26,7 @@ public class mainPageForm extends JFrame{
     private JComboBox agriDeger6;
     private JComboBox hapsirmaDeger7;
     private JComboBox burunAkintisiDeger8;
-    private JComboBox burunTikanikliğiDeger9;
+    private JComboBox burunTikanikligiDeger9;
     private JComboBox gozlerdeSulanmaDeger10;
     private JComboBox bogazAgrisiDeger11;
     private JComboBox ishalDeger12;
@@ -39,6 +39,9 @@ public class mainPageForm extends JFrame{
     private JLabel sonucLabel3;
     private JLabel sonucLabel2;
     private JLabel sonucLabel1;
+    private JButton hastaneButon;
+    private JLabel sonucRapor;
+    private JLabel sonucRapor2;
 
 
     public mainPageForm(String baslik){
@@ -66,14 +69,16 @@ public class mainPageForm extends JFrame{
                         agriDeger6.getSelectedIndex(),
                         hapsirmaDeger7.getSelectedIndex(),
                         burunAkintisiDeger8.getSelectedIndex(),
-                        burunTikanikliğiDeger9.getSelectedIndex(),
+                        burunTikanikligiDeger9.getSelectedIndex(),
                         gozlerdeSulanmaDeger10.getSelectedIndex(),
                         bogazAgrisiDeger11.getSelectedIndex(),
                         ishalDeger12.getSelectedIndex());
-                        float koronaYuzde = CONST.hastalikTaniOran/12;
+
+                        CONST.koronaYuzde = CONST.hastalikTaniOran/12;
                         CONST.hastalikTaniOran = 0f;
                         sonucIsimLabel1.setText("Korona :");
-                        sonucLabel1.setText(String.valueOf(koronaYuzde));
+                        sonucLabel1.setText(String.valueOf(CONST.koronaYuzde));
+                        diseaseDiagnosis.hastalikTani(CONST.koronaYuzde);
 
                 diseaseDiagnosis.sogukAlginligiTaniOrani(atesDeger1.getSelectedIndex(),
                         yorgunlukDeger2.getSelectedIndex(),
@@ -83,14 +88,17 @@ public class mainPageForm extends JFrame{
                         agriDeger6.getSelectedIndex(),
                         hapsirmaDeger7.getSelectedIndex(),
                         burunAkintisiDeger8.getSelectedIndex(),
-                        burunTikanikliğiDeger9.getSelectedIndex(),
+                        burunTikanikligiDeger9.getSelectedIndex(),
                         gozlerdeSulanmaDeger10.getSelectedIndex(),
                         bogazAgrisiDeger11.getSelectedIndex(),
                         ishalDeger12.getSelectedIndex());
-                        float sogukAlginligiYuzde = CONST.hastalikTaniOran/12;
+
+                        CONST.sogukAlginligiYuzde = CONST.hastalikTaniOran/12;
                         CONST.hastalikTaniOran = 0f;
                         sonucIsimLabel2.setText("Soğuk Algınlığı :");
-                        sonucLabel2.setText(String.valueOf(sogukAlginligiYuzde));
+                        sonucLabel2.setText(String.valueOf(CONST.sogukAlginligiYuzde));
+                        diseaseDiagnosis.hastalikTani(CONST.sogukAlginligiYuzde);
+
 
                 diseaseDiagnosis.gripTaniOrani(atesDeger1.getSelectedIndex(),
                         yorgunlukDeger2.getSelectedIndex(),
@@ -100,15 +108,16 @@ public class mainPageForm extends JFrame{
                         agriDeger6.getSelectedIndex(),
                         hapsirmaDeger7.getSelectedIndex(),
                         burunAkintisiDeger8.getSelectedIndex(),
-                        burunTikanikliğiDeger9.getSelectedIndex(),
+                        burunTikanikligiDeger9.getSelectedIndex(),
                         gozlerdeSulanmaDeger10.getSelectedIndex(),
                         bogazAgrisiDeger11.getSelectedIndex(),
                         ishalDeger12.getSelectedIndex());
-                        float gripYuzde = CONST.hastalikTaniOran/12;
+
+                        CONST.gripYuzde = CONST.hastalikTaniOran/12;
                         CONST.hastalikTaniOran = 0f;
                         sonucIsimLabel3.setText("Grip :");
-                        sonucLabel3.setText(String.valueOf(gripYuzde));
-
+                        sonucLabel3.setText(String.valueOf(CONST.gripYuzde));
+                        diseaseDiagnosis.hastalikTani(CONST.gripYuzde);
 
 
                 diseaseDiagnosis.alerjiTaniOrani(atesDeger1.getSelectedIndex(),
@@ -119,15 +128,39 @@ public class mainPageForm extends JFrame{
                         agriDeger6.getSelectedIndex(),
                         hapsirmaDeger7.getSelectedIndex(),
                         burunAkintisiDeger8.getSelectedIndex(),
-                        burunTikanikliğiDeger9.getSelectedIndex(),
+                        burunTikanikligiDeger9.getSelectedIndex(),
                         gozlerdeSulanmaDeger10.getSelectedIndex(),
                         bogazAgrisiDeger11.getSelectedIndex(),
                         ishalDeger12.getSelectedIndex());
-                        float alerjiYuzde = CONST.hastalikTaniOran/12;
+
+                        CONST.alerjiYuzde = CONST.hastalikTaniOran/12;
                         CONST.hastalikTaniOran = 0f;
                         sonucIsimLabel4.setText("Alerji :");
-                        sonucLabel4.setText(String.valueOf(alerjiYuzde));
+                        sonucLabel4.setText(String.valueOf(CONST.alerjiYuzde));
+                        diseaseDiagnosis.hastalikTani(CONST.alerjiYuzde);
 
+
+
+                if(CONST.koronaBool){
+                    sonucRapor.setText("Sonuçlara göre hastalığınızı Korona gibi görünüyor.");
+                    sonucRapor2.setText("Lütfen en yakın hastaneye gidip test yaptırın.");
+                    CONST.koronaBool = false;
+                }
+                if(CONST.sogukAlginligiBool){
+                    sonucRapor.setText("Sonuçlara göre hastalığınızı Soğuk Algınlığı gibi görünüyor.");
+                    sonucRapor2.setText("Bu durumda Sol tarafta bulunan makaleleri okumanız tavsiye edilir.");
+                    CONST.sogukAlginligiBool = false;
+                }
+                if(CONST.gripBool){
+                    sonucRapor.setText("Sonuçlara göre hastalığınızı Grip gibi görünüyor.");
+                    sonucRapor2.setText("Bu durumda Sol tarafta bulunan makaleleri okumanız tavsiye edilir.");
+                    CONST.gripBool = false;
+                }
+                if(CONST.alerjiBool){
+                    sonucRapor.setText("Sonuçlara göre hastalığınızı Alerji gibi görünüyor.");
+                    sonucRapor2.setText("Bu durumda Sol tarafta bulunan makaleleri okumanız tavsiye edilir.");
+                    CONST.alerjiBool = false;
+                }
             }
         });
     }

@@ -152,4 +152,19 @@ public class diseaseDiagnosis {
         yokCevap(deger11);
         yokCevap(deger12);
     }
+
+    public static void hastalikTani(float deger){
+        if(deger > CONST.sogukAlginligiYuzde && deger > CONST.gripYuzde && deger > CONST.alerjiYuzde){
+            CONST.koronaBool = true;
+        }
+        if(deger > CONST.koronaYuzde && deger > CONST.gripYuzde && deger > CONST.alerjiYuzde){
+            CONST.sogukAlginligiBool = true;
+        }
+        if(deger > CONST.koronaYuzde && deger > CONST.sogukAlginligiYuzde && deger > CONST.alerjiYuzde){
+            CONST.gripBool = true;
+        }
+        if(deger > CONST.koronaYuzde && deger > CONST.sogukAlginligiYuzde && deger > CONST.gripYuzde){
+            CONST.alerjiBool = true;
+        }
+    }
 }
