@@ -21,6 +21,7 @@ public class CONST {
     public static boolean sogukAlginligiBool = false;
     public static boolean gripBool = false;
     public static boolean alerjiBool = false;
+    public static String dosyaAdi = "";
 
 
 }

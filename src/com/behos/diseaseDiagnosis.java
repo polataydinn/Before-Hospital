@@ -2,6 +2,8 @@ package com.behos;
 
 public class diseaseDiagnosis {
 
+
+// Her bir cevabın yüzdelik oranları aşağıdaki şekilde
     public static void yokCevap(int deger){
         if(deger == 0){
             CONST.hastalikTaniOran = CONST.hastalikTaniOran + 100;
@@ -91,7 +93,7 @@ public class diseaseDiagnosis {
             CONST.hastalikTaniOran = (CONST.hastalikTaniOran + 100);
         }
     }
-
+// Korona'nın Tanı oranı hesaplama fonksiyonu
     public static void koronaTaniOrani(int deger1,int deger2,int deger3,int deger4,int deger5,int deger6,int deger7,int deger8,int deger9,int deger10,int deger11,int deger12){
        // Soruların verilen cevaba göre yüzdelik hesaplanmasının yapılması
         sikCevap(deger1);
@@ -107,7 +109,7 @@ public class diseaseDiagnosis {
         bazenCevap(deger11);
         bazenCevap(deger12);
     }
-
+// Soğuk Algınlığının Tanı oranı hesaplama fonksiyonu
     public static void sogukAlginligiTaniOrani(int deger1,int deger2,int deger3,int deger4,int deger5,int deger6,int deger7,int deger8,int deger9,int deger10,int deger11,int deger12){
         nadirenCevap(deger1);
         bazenCevap(deger2);
@@ -122,7 +124,7 @@ public class diseaseDiagnosis {
         sikCevap(deger11);
         yokCevap(deger12);
     }
-
+// Grip Tanı oranı hesaplama fonksiyonu
     public static void gripTaniOrani(int deger1, int deger2, int deger3, int deger4, int deger5, int deger6, int deger7, int deger8, int deger9, int deger10, int deger11, int deger12){
         sikCevap(deger1);
         sikCevap(deger2);
@@ -137,7 +139,7 @@ public class diseaseDiagnosis {
         bazenCevap(deger11);
         nadirenCevap(deger11);
     }
-
+//Alerji Tanı oranı hesaplama fonksiyonu
     public static void alerjiTaniOrani(int deger1,int deger2,int deger3,int deger4,int deger5,int deger6,int deger7,int deger8,int deger9,int deger10,int deger11,int deger12){
         yokCevap(deger1);
         bazenCevap(deger2);
@@ -153,6 +155,7 @@ public class diseaseDiagnosis {
         yokCevap(deger12);
     }
 
+    // Sonuc ekranı için hangi hastalığın uüzdesinin en büyük olduğunu hesaplayan fonksiyon
     public static void hastalikTani(float deger){
         if(deger > CONST.sogukAlginligiYuzde && deger > CONST.gripYuzde && deger > CONST.alerjiYuzde){
             CONST.koronaBool = true;
