@@ -1,0 +1,2123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="settingsPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="mainPanel" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="settingsPanel" max="32767" attributes="0"/>
+          <Component id="mainPanel" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="settingsPanel">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="55" green="55" red="c0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="hastalikRehberButtonPanel" linkSize="5" min="-2" max="-2" attributes="0"/>
+                          <Component id="ayarlarButtonPanel" linkSize="5" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="hastalikTaniButtonPanel" linkSize="5" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="profilButtonPanel" linkSize="5" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="253" max="-2" attributes="0"/>
+                  <Component id="profilButtonPanel" linkSize="6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="hastalikTaniButtonPanel" linkSize="6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <Component id="hastalikRehberButtonPanel" linkSize="6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="ayarlarButtonPanel" linkSize="6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="hastalikRehberButtonPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="72" green="a3" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mouseExited"/>
+          </Events>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="hastalikRehberLabel" alignment="0" pref="231" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="hastalikRehberLabel" alignment="0" pref="48" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="hastalikRehberLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="    Hastal&#x131;k Rehber"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="profilButtonPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="72" green="a3" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mouseExited"/>
+          </Events>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="profilLabel" alignment="0" pref="231" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="profilLabel" alignment="0" pref="48" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="profilLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="         Profil"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="ayarlarButtonPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="72" green="a3" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mouseExited"/>
+          </Events>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="ayarlarLabel" alignment="0" pref="231" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="ayarlarLabel" alignment="0" pref="48" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="ayarlarLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="         Ayarlar"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="hastalikTaniButtonPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="72" green="a3" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mouseClicked"/>
+            <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mouseEntered"/>
+            <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="mouseExited"/>
+          </Events>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="hastalikTaniLabel" alignment="0" pref="231" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="hastalikTaniLabel" alignment="0" pref="48" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="hastalikTaniLabel">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="c2" green="ea" red="f3" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="     Hastal&#x131;k Tan&#x131;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="mainPanel">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignCardLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="mainMenuPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="5c" green="c8" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card6"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="364" max="32767" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="598" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="347" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace pref="370" max="32767" attributes="0"/>
+                          <Component id="jLabel2" min="-2" pref="598" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="341" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="326" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="97" max="-2" attributes="0"/>
+                      <EmptySpace pref="389" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="242" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" pref="97" max="-2" attributes="0"/>
+                          <EmptySpace pref="473" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="               Ho&#x15f;geldiniz"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="36" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Hastane &#xd6;ncesi Tan&#x131; Mod&#xfc;l&#xfc;&apos;ne"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="profilPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="5c" green="c8" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card2"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                              <Component id="avatarLabel" min="-2" pref="194" max="-2" attributes="0"/>
+                              <EmptySpace min="136" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+                                      <Component id="vkeGirisLabel" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="vkeDegerLabel" min="-2" pref="264" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="52" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="vkeLabel" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="adSoyadLabel" max="32767" attributes="0"/>
+                                  <Component id="tcNoLabel" pref="202" max="32767" attributes="0"/>
+                                  <Component id="cinsiyetLabel" max="32767" attributes="0"/>
+                                  <Component id="boyLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="yasLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="kiloLabel" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="adSoyadGirisLabel" pref="269" max="32767" attributes="0"/>
+                                  <Component id="tcNoGirisLabel" max="32767" attributes="0"/>
+                                  <Component id="yasGirisLabel" max="32767" attributes="0"/>
+                                  <Component id="cinsiyetGirisLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="boyGirisLabel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="kiloGirisLabel" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="311" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jScrollPane1" min="-2" pref="626" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="avatarLabel" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="adSoyadLabel" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="adSoyadGirisLabel" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="tcNoGirisLabel" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="tcNoLabel" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="cinsiyetLabel" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="cinsiyetGirisLabel" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="boyLabel" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="boyGirisLabel" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="kiloLabel" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="kiloGirisLabel" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="yasLabel" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="yasGirisLabel" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="vkeLabel" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="vkeGirisLabel" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="vkeDegerLabel" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" pref="179" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="avatarLabel">
+            </Component>
+            <Component class="javax.swing.JLabel" name="adSoyadLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ad Soyad"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="yasGirisLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ya&#x15f;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="tcNoGirisLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Tc Numaras&#x131;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="adSoyadGirisLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ad&#x131;n&#x131;z ve Soyad&#x131;n&#x131;z"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="tcNoLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Tc Numaras&#x131;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cinsiyetLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cinsiyet"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="boyLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Boy"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cinsiyetGirisLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cinsiyet"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="yasLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ya&#x15f;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="boyGirisLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Boy"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="kiloLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Kilo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="kiloGirisLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Kilo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="vkeLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="V&#xfc;c&#xfc;t Kitle Endeksiniz"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="vkeGirisLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="VKE Sonuc"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="vkeDegerLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="33" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="vkeRehberTextArea">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Monospaced" size="24" style="0"/>
+                    </Property>
+                    <Property name="lineWrap" type="boolean" value="true"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="hastalikTaniPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="5c" green="c8" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card2"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="yorgunlukLabel" max="32767" attributes="0"/>
+                                  <Component id="atesLabel" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="oksurukLabel" min="-2" pref="74" max="-2" attributes="0"/>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Component id="kuruOksurukLabel" max="32767" attributes="0"/>
+                                          <Component id="solunumZorluguLabel" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="solunumDeger4" linkSize="13" min="-2" pref="134" max="-2" attributes="0"/>
+                                  <Component id="kuruOksurukDeger3" linkSize="13" min="-2" pref="134" max="-2" attributes="0"/>
+                                  <Component id="yorgunlukDeger2" linkSize="13" min="-2" pref="134" max="-2" attributes="0"/>
+                                  <Component id="atesDeger1" linkSize="13" min="-2" pref="134" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="agriLabel" min="-2" pref="74" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="agriDeger6" linkSize="13" pref="134" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="gozlerdeSulanmaLabel" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="burunAkintisiLabel" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="hapsirmaLabel" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                                          <Component id="burunTikanikligiLabel" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="bogazAgrisiLabel" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="ishalLabel" alignment="1" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="ishalDeger12" linkSize="13" alignment="1" min="-2" pref="134" max="-2" attributes="0"/>
+                                          <Component id="bogazAgrisiDeger11" linkSize="13" alignment="1" min="-2" pref="134" max="-2" attributes="0"/>
+                                          <Component id="gozlerdeSulanmaDeger10" linkSize="13" alignment="1" min="-2" pref="134" max="-2" attributes="0"/>
+                                          <Component id="burunTikanikligiDeger9" linkSize="13" alignment="1" min="-2" pref="134" max="-2" attributes="0"/>
+                                          <Component id="burunAkintisiDeger8" linkSize="13" alignment="1" min="-2" pref="134" max="-2" attributes="0"/>
+                                          <Component id="hapsirmaDeger7" linkSize="13" alignment="1" pref="134" max="32767" attributes="0"/>
+                                          <Component id="oksurukDeger5" linkSize="13" pref="134" max="32767" attributes="0"/>
+                                          <Component id="testEtButton" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="sonucIsimLabel1" min="-2" pref="165" max="-2" attributes="0"/>
+                                      <Component id="sonucLabel1" min="-2" pref="95" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="sonucIsimLabel2" alignment="0" min="-2" pref="165" max="-2" attributes="0"/>
+                                      <Component id="sonucLabel2" alignment="0" min="-2" pref="95" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="sonucIsimLabel3" alignment="0" min="-2" pref="165" max="-2" attributes="0"/>
+                                      <Component id="sonucLabel3" alignment="0" min="-2" pref="95" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="sonucLabel4" min="-2" pref="95" max="-2" attributes="0"/>
+                                      <Component id="sonucIsimLabel4" min="-2" pref="165" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="sonucRapor2" alignment="0" pref="838" max="32767" attributes="0"/>
+                              <Component id="sonucRapor" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="pastaPanel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                                      <Component id="sonucIsimLabel1" min="-2" pref="38" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="atesDeger1" min="-2" pref="31" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="-2" pref="112" max="-2" attributes="0"/>
+                                              <Component id="atesLabel" pref="19" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="sonucIsimLabel2" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                                  <Component id="sonucIsimLabel3" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                                  <Component id="sonucIsimLabel4" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="sonucLabel2" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="sonucLabel3" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                              <Component id="sonucLabel4" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="sonucLabel1" alignment="0" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="yorgunlukLabel" alignment="3" pref="45" max="32767" attributes="0"/>
+                              <Component id="yorgunlukDeger2" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="pastaPanel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="24" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="testEtButton" alignment="1" min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="sonucRapor" min="-2" pref="38" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="sonucRapor2" min="-2" pref="38" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="kuruOksurukLabel" alignment="0" pref="42" max="32767" attributes="0"/>
+                                  <Component id="kuruOksurukDeger3" alignment="0" min="-2" pref="31" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="solunumZorluguLabel" alignment="0" pref="42" max="32767" attributes="0"/>
+                                  <Component id="solunumDeger4" alignment="0" min="-2" pref="31" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="oksurukDeger5" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="oksurukLabel" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="agriDeger6" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="agriLabel" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="hapsirmaLabel" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="hapsirmaDeger7" alignment="0" min="-2" pref="31" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="burunAkintisiLabel" alignment="3" max="32767" attributes="0"/>
+                                  <Component id="burunAkintisiDeger8" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="burunTikanikligiDeger9" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="burunTikanikligiLabel" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="gozlerdeSulanmaDeger10" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="gozlerdeSulanmaLabel" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="20" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="bogazAgrisiDeger11" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="bogazAgrisiLabel" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="ishalDeger12" min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Component id="ishalLabel" pref="38" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="157" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="atesLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ate&#x15f;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="atesDeger1">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Yok"/>
+                    <StringItem index="1" value="Nadiren"/>
+                    <StringItem index="2" value="Bazen"/>
+                    <StringItem index="3" value="S&#x131;k"/>
+                    <StringItem index="4" value="&#x15e;iddetli"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="yorgunlukDeger2">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Yok"/>
+                    <StringItem index="1" value="Nadiren"/>
+                    <StringItem index="2" value="Bazen"/>
+                    <StringItem index="3" value="S&#x131;k"/>
+                    <StringItem index="4" value="&#x15e;iddetli"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="yorgunlukLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Yorgunluk"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="kuruOksurukDeger3">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Yok"/>
+                    <StringItem index="1" value="Nadiren"/>
+                    <StringItem index="2" value="Bazen"/>
+                    <StringItem index="3" value="S&#x131;k"/>
+                    <StringItem index="4" value="&#x15e;iddetli"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="kuruOksurukLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Kuru &#xd6;ks&#xfc;r&#xfc;k"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="solunumDeger4">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Yok"/>
+                    <StringItem index="1" value="Nadiren"/>
+                    <StringItem index="2" value="Bazen"/>
+                    <StringItem index="3" value="S&#x131;k"/>
+                    <StringItem index="4" value="&#x15e;iddetli"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="solunumZorluguLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Solunum Zorlu&#x11f;u"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="oksurukDeger5">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Yok"/>
+                    <StringItem index="1" value="Nadiren"/>
+                    <StringItem index="2" value="Bazen"/>
+                    <StringItem index="3" value="S&#x131;k"/>
+                    <StringItem index="4" value="&#x15e;iddetli"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="oksurukLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xd6;ks&#xfc;r&#xfc;k"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="hapsirmaDeger7">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Yok"/>
+                    <StringItem index="1" value="Nadiren"/>
+                    <StringItem index="2" value="Bazen"/>
+                    <StringItem index="3" value="S&#x131;k"/>
+                    <StringItem index="4" value="&#x15e;iddetli"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="hapsirmaLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Hap&#x15f;&#x131;rma"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="burunAkintisiDeger8">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Yok"/>
+                    <StringItem index="1" value="Nadiren"/>
+                    <StringItem index="2" value="Bazen"/>
+                    <StringItem index="3" value="S&#x131;k"/>
+                    <StringItem index="4" value="&#x15e;iddetli"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="burunAkintisiLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Burun Ak&#x131;nt&#x131;s&#x131;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="burunTikanikligiDeger9">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Yok"/>
+                    <StringItem index="1" value="Nadiren"/>
+                    <StringItem index="2" value="Bazen"/>
+                    <StringItem index="3" value="S&#x131;k"/>
+                    <StringItem index="4" value="&#x15e;iddetli"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="burunTikanikligiLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Burun T&#x131;kan&#x131;kl&#x131;&#x11f;&#x131;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="gozlerdeSulanmaDeger10">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Yok"/>
+                    <StringItem index="1" value="Nadiren"/>
+                    <StringItem index="2" value="Bazen"/>
+                    <StringItem index="3" value="S&#x131;k"/>
+                    <StringItem index="4" value="&#x15e;iddetli"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gozlerdeSulanmaDeger10ActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="gozlerdeSulanmaLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="G&#xf6;zlerde Sulanma"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="agriLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="A&#x11f;r&#x131;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="agriDeger6">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Yok"/>
+                    <StringItem index="1" value="Nadiren"/>
+                    <StringItem index="2" value="Bazen"/>
+                    <StringItem index="3" value="S&#x131;k"/>
+                    <StringItem index="4" value="&#x15e;iddetli"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="bogazAgrisiDeger11">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Yok"/>
+                    <StringItem index="1" value="Nadiren"/>
+                    <StringItem index="2" value="Bazen"/>
+                    <StringItem index="3" value="S&#x131;k"/>
+                    <StringItem index="4" value="&#x15e;iddetli"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="bogazAgrisiLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Bo&#x11f;az A&#x11f;r&#x131;s&#x131;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="ishalDeger12">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="5">
+                    <StringItem index="0" value="Yok"/>
+                    <StringItem index="1" value="Nadiren"/>
+                    <StringItem index="2" value="Bazen"/>
+                    <StringItem index="3" value="S&#x131;k"/>
+                    <StringItem index="4" value="&#x15e;iddetli"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="ishalLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x130;shal"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="testEtButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Test Et"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="testEtButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sonucLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sonucIsimLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Korona"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sonucLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sonucIsimLabel2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="So&#x11f;uk Alg&#x131;nl&#x131;&#x11f;&#x131;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sonucIsimLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Grip"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sonucLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sonucIsimLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Alerji"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sonucLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sonucRapor">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="sonucRapor2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="pastaPanel">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="5c" green="c8" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="760" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <EmptySpace min="0" pref="440" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="hastalikRehberPanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card2"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jTabbedPane1" alignment="0" pref="1288" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jTabbedPane1" alignment="0" pref="723" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[105, 300]"/>
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[105, 200]"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="5c" green="c8" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="autoscrolls" type="boolean" value="true"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="So&#x11f;uk Alg&#x131;nl&#x131;&#x11f;&#x131;         ">
+                        <Property name="tabTitle" type="java.lang.String" value="So&#x11f;uk Alg&#x131;nl&#x131;&#x11f;&#x131;         "/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="955" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="179" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" min="-2" pref="546" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="sogukAlginligiTextArea">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Monospaced" size="14" style="0"/>
+                            </Property>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="text" type="java.lang.String" value="&#x9;Genel Tan&#x131;t&#x131;m&#xa;&#x9;    &#xa;&#xa;&#xa;So&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131;, nezle ya da bir di&#x11f;er ad&#x131;yla nazofarenjit, &#xfc;st solunum yollar&#x131;n&#x131;zda (burun ve bo&#x11f;az&#x131;n&#x131;zda) &#xa;meydana gelen viral bir enfeksiyondur. Y&#x131;l&#x131;n her mevsiminde g&#xf6;r&#xfc;lebilen ve b&#xfc;t&#xfc;n d&#xfc;nyada yayg&#x131;n olan bir &#xa;hastal&#x131;k t&#xfc;r&#xfc;d&#xfc;r. &#xa;Genellikle mevsim ge&#xe7;i&#x15f;lerinde, ani s&#x131;cakl&#x131;k de&#x11f;i&#x15f;imleri g&#xfc;ndemde oldu&#x11f;u vakitlerde etkin olur. 200&#x2019;den &#xa;fazla nezleye sebep olan vir&#xfc;s mevcuttur. Bunlardan ba&#x15f;l&#x131;calar&#x131;; Rinovir&#xfc;sler, Koronavir&#xfc;sler, &#xa;Adenovir&#xfc;sler ve RSV (Respiratuar Sinsitiyal Vir&#xfc;s)&#x2019;dir. En yayg&#x131;n olan&#x131; ise Rinovir&#xfc;slerdir.&#xa;&#xa;So&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131;, insanlar aras&#x131;nda g&#xf6;r&#xfc;len en yayg&#x131;n bula&#x15f;&#x131;c&#x131; hastal&#x131;k t&#xfc;r&#xfc;d&#xfc;r. Hap&#x15f;&#x131;r&#x131;k ve &#xf6;ks&#xfc;r&#xfc;k &#xa;ataklar&#x131; ile havaya yay&#x131;lm&#x131;&#x15f; olan vir&#xfc;sleri ba&#x15f;ka insanlar soludu&#x11f;unda onlara da ge&#xe7;mi&#x15f; olur. Vir&#xfc;s &#xa;al&#x131;nd&#x131;ktan 2-3 saat sonra, k&#x131;r&#x131;kl&#x131;k, burun ak&#x131;nt&#x131;s&#x131;, hafif ate&#x15f;, &#xf6;ks&#xfc;r&#xfc;k, g&#xf6;zlerde k&#x131;zarma ve ya&#x15f;arma &#xa;gibi semptomlarla kendini belli eder ve 7-10 g&#xfc;nde kendili&#x11f;inden ge&#xe7;er. &#xa;&#xa;Solunum yoluyla al&#x131;nan vir&#xfc;sler, burun mukozas&#x131;na yerle&#x15f;ir ve burnun t&#x131;kanmas&#x131;na sebebiyet verir. &#xa;V&#xfc;cutta bu hap&#x15f;&#x131;rma, burun ak&#x131;nt&#x131;s&#x131; vas&#x131;tas&#x131;yla bu vir&#xfc;slerden kurtulmaya &#xe7;al&#x131;&#x15f;&#x131;r. Belirtilerin nedeni, &#xa;vir&#xfc;s&#xfc;n &#xfc;st solunum yollar&#x131;ndaki dokulara zarar vermesi de&#x11f;il, ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sisteminin enfeksiyona verdi&#x11f;i &#xa;reaksiyondur.&#xa;&#xa;Normal &#x15f;artlarda 7-10 g&#xfc;nl&#xfc;k s&#xfc;re zarf&#x131;nda kendili&#x11f;inden ge&#xe7;en nezle; sin&#xfc;zit, orta kulak iltihab&#x131; veya &#xa;pn&#xf6;mokok gibi hastal&#x131;klara sebebiyet verirse iyile&#x15f;me s&#xfc;resi uzayacakt&#x131;r. Ayr&#x131;ca sigara kullanan ki&#x15f;ilerde &#xa;belirtiler daha uzun s&#xfc;re seyredebilmektedir.&#xa;&#xa;So&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131; (nezle) &#xe7;o&#x11f;unlukla grip ile kar&#x131;&#x15f;t&#x131;r&#x131;l&#x131;r. Ancak, nezle gribe g&#xf6;re &#xe7;ok daha hafif &#xa;atlat&#x131;lan bir rahats&#x131;zl&#x131;kt&#x131;r. Gripte burun ak&#x131;nt&#x131;s&#x131; &#x15f;ikayeti olmazken, nezlede ana &#x15f;ikayet burun &#xa;ak&#x131;nt&#x131;s&#x131;d&#x131;r.&#xa;&#xa;&#xa;&#xa;&#x9;So&#x11f;uk Alg&#x131;nl&#x131;&#x11f;&#x131; Kimlerde G&#xf6;r&#xfc;l&#xfc;r?&#xa;&#xa;&#xa;&#xa;Yeti&#x15f;kin bir insan, ortalama olarak y&#x131;lda 2 ila 3 kere so&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131;na yakalanabilir. Bir &#xe7;ocuk ise, &#xa;y&#x131;lda 6 ila 10 kere bu hastal&#x131;ktan muzdarip olabilir ve &#xe7;ocuklarda yeti&#x15f;kinlere oranla daha uzun s&#xfc;re &#xa;seyredebilir. Bebeklerde ise ilk 6 ay anneden ge&#xe7;en antikorlar nezleye kar&#x15f;&#x131; v&#xfc;cudu korur.&#xa;&#xa;So&#x11f;uk Alg&#x131;nl&#x131;&#x11f;&#x131; Nas&#x131;l Bula&#x15f;&#x131;r?&#xa;So&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131;, havadaki vir&#xfc;s ta&#x15f;&#x131;yan damlac&#x131;klar&#x131;n solunmas&#x131;, yutulmas&#x131; ya da enfeksiyon i&#xe7;eren nesnelere &#xa;temas edilmesiyle bula&#x15f;abilir. Vir&#xfc;sler etrafta uzun bir s&#xfc;re boyunca ya&#x15f;ayabilirler. Daha sonra siz elinizle&#xa; vir&#xfc;sl&#xfc; y&#xfc;zeylere temas edip y&#xfc;z&#xfc;n&#xfc;ze, g&#xf6;z&#xfc;n&#xfc;ze, burnunuza elinizi s&#xfc;rd&#xfc;&#x11f;&#xfc;n&#xfc;zde size de bula&#x15f;&#x131;r. &#xa;&#xa;Hastal&#x131;&#x11f;&#x131;n yak&#x131;n temastaki ki&#x15f;ilere bula&#x15f;ma ihtimali y&#xfc;ksektir. D&#xfc;&#x15f;&#xfc;k ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemine sahip bireyler, &#xa;hijyenin &#xe7;ok iyi olmad&#x131;&#x11f;&#x131; yerlerde bu vir&#xfc;se maruz kal&#x131;p, &#xe7;evresine de bula&#x15f;mas&#x131;na &#xf6;n ayak olabilirler.&#xa;&#xa;Hijyeni daima &#xf6;n planda tutmak, so&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131; ge&#xe7;iren insanlarla yak&#x131;n temastan ka&#xe7;&#x131;nmak, sigara i&#xe7;ilen &#xa;ortamlardan uzak durmak, ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemini g&#xfc;&#xe7;lendirmeye y&#xf6;nelik beslenme d&#xfc;zeni, spor plan&#x131; &#xa;&#x15f;ekillendirmek, havas&#x131;z ve kalabal&#x131;k ortamlarda bulunmaktan ka&#xe7;&#x131;narak vir&#xfc;slerin bula&#x15f;mas&#x131;n&#x131; &#xf6;nleme yoluna &#xa;gidebilirsiniz.&#xa;&#xa;&#xa;&#x9;Belirtiler&#xa;&#x9;&#x9;&#xa;&#xa;Vir&#xfc;s b&#xfc;nyeye al&#x131;nd&#x131;ktan yakla&#x15f;&#x131;k 2-3 saat sonra, nezle semptomlar&#x131; g&#xf6;r&#xfc;lmeye ba&#x15f;layabilir. Her belirti &#xa;herkeste g&#xf6;r&#xfc;lecek diye bir durum s&#xf6;z konusu de&#x11f;ildir. Ama &#xe7;o&#x11f;unlukla a&#x15f;a&#x11f;&#x131;daki belirtilerle kar&#x15f;&#x131;m&#x131;za &#xe7;&#x131;kar.&#xa;&#xa;&#xa;&#x9;Tedavi Y&#xf6;ntemleri&#xa;&#xa;&#xa;&#xa;Solunum yolu enfeksiyonlar&#x131;n&#x131;n yakla&#x15f;&#x131;k %80&#x2019;i vir&#xfc;s kaynakl&#x131;d&#x131;r, kalan %20&#x2019;lik kesim ise bakteri kaynakl&#x131;d&#x131;r. &#xa;Sadece bakteri kaynakl&#x131; hastal&#x131;klarda antibiyotik tedavisine ba&#x15f;vurulabilmektedir ve bu y&#xfc;zden so&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131;n&#x131;n&#xa; antibiyotikle bir tedavisi m&#xfc;mk&#xfc;n de&#x11f;ildir. Sadece belirtileri azaltmaya, s&#xfc;relerini k&#x131;saltmaya y&#xf6;nelik tedavi&#xa; y&#xf6;ntemlerinde bulunulabilir. Bunlar:&#xa;&#xa;Bol bol istirahat etme.&#xa;Bol s&#x131;v&#x131; al&#x131;m&#x131; (minimum 2-2, 5 litre).&#xa;Burun t&#x131;kan&#x131;kl&#x131;&#x11f;&#x131; sizin hayat kalitenizi d&#xfc;&#x15f;&#xfc;r&#xfc;yorsa burun damlas&#x131;, spreyi kullan&#x131;m&#x131;.&#xa;Bo&#x11f;az&#x131;n&#x131;z&#x131; rahatlatmak i&#xe7;in &#xf6;ks&#xfc;r&#xfc;k &#x15f;urubu ya da pastil kullan&#x131;m&#x131;.&#xa;Rahatlama i&#xe7;in, buruna tuzlu su &#xe7;ekebilir, bo&#x11f;az&#x131;n&#x131;za tuzlu su gargaras&#x131; yapabilirsiniz. &#xa;Hastal&#x131;k 7 ila 10 g&#xfc;n i&#xe7;erisinde kendili&#x11f;inden ge&#xe7;ecektir. &#xc7;ok ya&#x15f;l&#x131;, ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemi g&#xfc;&#xe7;s&#xfc;z ki&#x15f;ilerde&#xa; baz&#x131; ikincil bakteriyel enfeksiyonlar da g&#xf6;r&#xfc;lebilece&#x11f;i i&#xe7;in s&#xfc;re&#xe7; uzayabilir.&#xa;&#x9;&#xa;&#x9;&#xa;&#x9;So&#x11f;uk Alg&#x131;nl&#x131;&#x11f;&#x131;na Ne &#x130;yi Gelir?&#xa;&#xa;&#xa;Tedavisi olan bir rahats&#x131;zl&#x131;k de&#x11f;ildir, kendili&#x11f;inden ge&#xe7;er. Fakat, bitkisel ve do&#x11f;al y&#xf6;ntemler ile &#xa;g&#xf6;sterdi&#x11f;i belirtilerin etkisi azalt&#x131;labilir. &#xa;&#xa;Ihlamur, Ada&#xe7;ay&#x131; ve Kekik: So&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131; nedeniyle tahri&#x15f; olan bo&#x11f;az&#x131;n&#x131;z&#x131; rahatlatmak amac&#x131;yla &#xa;i&#xe7;ilebilir.&#xa;Zerde&#xe7;al: Il&#x131;k s&#xfc;te ekleyece&#x11f;iniz bir ka&#x15f;&#x131;k zerde&#xe7;al siz rahatlatacakt&#x131;r.&#xa;Ku&#x15f;burnu &#xe7;ay&#x131;, portakal suyu: &#x130;&#xe7;eri&#x11f;indeki zengin C vitamini vas&#x131;tas&#x131;yla v&#xfc;cut direncinizi art&#x131;r&#x131;r.&#xa;Nane-limon: Nane-limon kar&#x131;&#x15f;&#x131;m&#x131;yla kendinizi rahatlatabilirsiniz.&#xa;&#xc7;ubuk tar&#xe7;&#x131;n: Demledi&#x11f;iniz &#xe7;aylar&#x131;n&#x131;z&#x131;n i&#xe7;ine bir &#xe7;ubuk tar&#xe7;&#x131;n atarak bo&#x11f;az&#x131;n&#x131;z&#x131; yumu&#x15f;atabilirsiniz.&#xa;Sar&#x131;msak: So&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131;n giderilmesinde olduk&#xe7;a etkili do&#x11f;al bir &#xfc;r&#xfc;nd&#xfc;r ve iyile&#x15f;me s&#xfc;recini h&#x131;zland&#x131;r&#x131;r.&#xa;Karanfil: A&#x11f;r&#x131;y&#x131; kesebilme &#xf6;zelli&#x11f;i sayesinde sizi rahatlatacakt&#x131;r.&#xa;Bebeklerde ve &#xc7;ocuklarda So&#x11f;uk Alg&#x131;nl&#x131;&#x11f;&#x131;&#xa;So&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131; bebekler ve &#xe7;ocuklar aras&#x131;nda olduk&#xe7;a yayg&#x131;n seyreder, bu y&#xfc;zden risk grubundad&#x131;rlar. &#xa;Nezle olan bebekler yemek yemeyi istemezler, nefes al&#x131;p vermede s&#x131;k&#x131;nt&#x131;lar ya&#x15f;arlar. Bebeklerde belirtiler &#xa;aras&#x131;nda ate&#x15f; yayg&#x131;nd&#x131;r. Bebekler g&#xfc;&#xe7;s&#xfc;zle&#x15f;ir ve a&#x11f;&#x131;zlar&#x131; s&#xfc;rekli olarak kurur ve onlarda huzursuzlu&#x11f;a yol &#xa;a&#xe7;ar. &#xa;Bebeklerde ve &#xe7;ocuklarda so&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131;n&#x131; gidermek i&#xe7;in:&#xa;Emzirme d&#xf6;neminde ise emzirilme s&#x131;kl&#x131;&#x11f;&#x131; art&#x131;r&#x131;labilir.&#xa;Burun aspirat&#xf6;r&#xfc; ile bebe&#x11f;inizin burnunu d&#xfc;zenli temizleyerek onun rahatlamas&#x131;n&#x131; sa&#x11f;layabilirsiniz.&#xa;S&#x131;k s&#x131;k banyoya sokarak, burunun temizlenmesi, mukozan&#x131;n nemli kalmas&#x131; sa&#x11f;lanabilir.&#xa;Kal&#x131;n giydirilmemeye &#xf6;zen g&#xf6;sterilebilir.&#xa;Bol s&#x131;v&#x131; deste&#x11f;i sa&#x11f;lanmal&#x131;d&#x131;r.&#xa;So&#x11f;uk Alg&#x131;nl&#x131;&#x11f;&#x131;n&#x131;n Komplikasyonlar&#x131; Nelerdir?&#xa;Akut kulak enfeksiyonu&#xa;Bakteri ya da vir&#xfc;sler, kulak zar&#x131;n&#x131;n arkas&#x131;ndaki bo&#x15f;lu&#x11f;a girdiklerinde, kulak a&#x11f;r&#x131;s&#x131; ve burundan ye&#x15f;ilimsi &#xa;ak&#x131;nt&#x131; gelmesi belirtileriyle kendini g&#xf6;sterir.&#xa;&#xa;&#xa;&#x9;So&#x11f;uk Alg&#x131;nl&#x131;&#x11f;&#x131;ndan Korunmak &#x130;&#xe7;in Nelere Dikkat Etmek Gereklidir?&#xa;&#xa;&#xa;&#xa;So&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131; hastal&#x131;&#x11f;&#x131;na sebep olan &#xe7;ok fazla vir&#xfc;s &#xe7;e&#x15f;idi olmas&#x131;ndan ve &#xe7;ok &#xe7;abuk mutasyona &#xa;u&#x11f;ramalar&#x131;ndan &#xf6;t&#xfc;r&#xfc; a&#x15f;&#x131;lama yapmak zordur. Etkili kapsamda a&#x15f;&#x131;lama yap&#x131;lmas&#x131; da muhtemel de&#x11f;ildir. &#xa;&#xa;Vir&#xfc;slerin yay&#x131;l&#x131;m&#x131;n&#x131; engellemek &#xfc;zerine sa&#x11f;duyulu giri&#x15f;imlerde bulunmak so&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131;n&#x131;n yay&#x131;lmas&#x131;n&#x131; &#xa;yava&#x15f;latmak ad&#x131;na do&#x11f;ru olacakt&#x131;r. &#xa;&#xa;Hijyen ve temizli&#x11f;e ekstra &#xf6;zen g&#xf6;sterip, eller d&#xfc;zenli olarak y&#x131;kanmal&#x131;d&#x131;r.&#xa;Maske takmaya &#xf6;zen g&#xf6;sterilmelidir.&#xa;C vitamini takviyesi, so&#x11f;uk alg&#x131;nl&#x131;&#x11f;&#x131;n&#x131;n &#x15f;iddetini azaltmaz fakat s&#xfc;resini k&#x131;saltma &#xfc;zerinde etkilidir. &#xa;&#xc7;inko takviyesi ald&#x131;&#x11f;&#x131;n&#x131;zda, belirtilerin &#x15f;iddetini ve s&#xfc;resini k&#x131;saltabilir.&#xa;Sa&#x11f;l&#x131;kl&#x131; ve d&#xfc;zenli beslenerek ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemini g&#xfc;&#xe7;l&#xfc; tutmak &#xf6;nem arz etmektedir.&#xa;Bulundu&#x11f;unuz ortamlar&#x131; s&#x131;k s&#x131;k havaland&#x131;rmal&#x131;s&#x131;n&#x131;z.&#xa;&#xc7;ocu&#x11f;unuzu kre&#x15f; veya yuvaya yolluyorsan&#x131;z, oynad&#x131;&#x11f;&#x131; oyuncaklar&#x131;n temizli&#x11f;inden emin olun, sterilize edin.&#xa;Sigara i&#xe7;memeye ve pasif i&#xe7;ici olmamaya &#xf6;zen g&#xf6;sterin.&#xa;Ellerinizle bir yerlere temas ettikten sonra temizlemeden a&#x11f;&#x131;z, burun, g&#xf6;z ve &#xe7;evresine temastan ka&#xe7;&#x131;n&#x131;n.&#xa;Bol taze ve meyve t&#xfc;ketimine &#xf6;zen g&#xf6;sterin.&#xa;&#xa;Kaynak : https://www.acibadem.com.tr/ilgi-alani/soguk-alginligi/#tedavi-yontemleri&#xa;"/>
+                            <Property name="caretPosition" type="int" value="0"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel2">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="5c" green="c8" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Grip             ">
+                        <Property name="tabTitle" type="java.lang.String" value="Grip             "/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jScrollPane3" min="-2" pref="955" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="179" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                              <Component id="jScrollPane3" min="-2" pref="546" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="gripTextArea">
+                          <Properties>
+                            <Property name="columns" type="int" value="20"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Monospaced" size="14" style="0"/>
+                            </Property>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="text" type="java.lang.String" value="&#x9;Genel Tan&#x131;t&#x131;m&#xa;&#xa;&#xa;Grip, vir&#xfc;slerin neden oldu&#x11f;u bir solunum yolu enfeksiyonudur. T&#x131;p literat&#xfc;r&#xfc;ndeki ismiyle &#xa;influenza, genellikle halk dilinde grip olarak adland&#x131;r&#x131;l&#x131;r. Grip burun, bo&#x11f;az ve &#xa;akci&#x11f;erlere yerle&#x15f;ebilen bir grup vir&#xfc;sten kaynaklanmaktad&#x131;r.&#xa;&#xa;Grip ila&#xe7;larla, bitkisel &#xe7;aylarla veya besin takviyeleri ile k&#x131;sa s&#xfc;rede ge&#xe7;ebilece&#x11f;i gibi &#xa;risk fakt&#xf6;rleri bulunan kimi hastalarda olu&#x15f;abilecek ileri komplikasyonlar&#x131;yla tedavi &#xa;edilmezse &#xf6;l&#xfc;mc&#xfc;l hale gelebilmektedir.&#xa;&#xa;Grip komplikasyonlar&#x131; geli&#x15f;me riski y&#xfc;ksek olan ki&#x15f;iler &#x15f;unlard&#x131;r:&#xa;&#xa;&#x2022; 5 ya&#x15f;&#x131;n alt&#x131;ndaki k&#xfc;&#xe7;&#xfc;k &#xe7;ocuklar ve &#xf6;zellikle 2 ya&#x15f;&#x131;ndan k&#xfc;&#xe7;&#xfc;kler&#xa;&#xa;&#x2022; 65 ya&#x15f;&#x131;ndan b&#xfc;y&#xfc;kler&#xa;&#xa;&#x2022; Gebe ve son 2 hafta i&#xe7;erisinde do&#x11f;um yapm&#x131;&#x15f; kad&#x131;nlar&#xa;&#xa;&#x2022; Ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemi zay&#x131;f ki&#x15f;iler&#xa;&#xa;&#x2022; Ast&#x131;m, kalp hastal&#x131;&#x11f;&#x131;, b&#xf6;brek hastal&#x131;&#x11f;&#x131;, karaci&#x11f;er hastal&#x131;&#x11f;&#x131; ve diyabet gibi kronik &#xa;hastal&#x131;klar&#x131; olan ki&#x15f;iler&#xa;&#xa;Grip, hemen hemen her k&#x131;&#x15f; mevsiminde g&#xf6;r&#xfc;len salg&#x131;nlar&#x131;na neden olur. Grip vir&#xfc;s&#xfc;n&#xfc;n yap&#x131;s&#x131; &#xa;&#xf6;nceden tahmini zor bir &#x15f;ekilde, her sene de&#x11f;i&#x15f;mektedir. Bu da, insanlar&#x131;n her y&#x131;l yeni &#xa;vir&#xfc;s t&#xfc;rlerine maruz kalmas&#x131; anlam&#x131;na gelir.&#xa;Grip, hafif solunum yolu hastal&#x131;klar&#x131;na yol a&#xe7;abilece&#x11f;i gibi ayn&#x131; zamanda ciddi &#xa;enfeksiyonlara da sebep olabilir.&#xa;&#xa;&#x9;Nedenleri&#xa;&#xa;&#xa;Grip bula&#x15f;&#x131;c&#x131; bir hastal&#x131;kt&#x131;r. Ki&#x15f;ilere temas ve solunum yollar&#x131;ndan bula&#x15f;abilir. &#xa;Grip olan bir ki&#x15f;i &#xf6;ks&#xfc;rd&#xfc;&#x11f;&#xfc;, hap&#x15f;&#x131;rd&#x131;&#x11f;&#x131; veya konu&#x15f;tu&#x11f;u zaman grip vir&#xfc;sleri havaya kar&#x131;&#x15f;&#x131;r. &#xa;Bu havay&#x131; do&#x11f;rudan teneff&#xfc;s ederek sa&#x11f;l&#x131;kl&#x131; ki&#x15f;iler grip vir&#xfc;s&#xfc;n&#xfc; alabilir. &#xa;&#xa;&#x9;Belirtiler&#xa;&#xa;&#xa;Grip genellikle burun ak&#x131;nt&#x131;s&#x131;yla birlikte ba&#x15f;lasa da a&#x15f;a&#x11f;&#x131;daki belirtilerle de s&#x131;k&#xe7;a &#xa;kar&#x15f;&#x131;la&#x15f;&#x131;lmaktad&#x131;r;&#xa;&#xa;&#x2022; Y&#xfc;ksek ate&#x15f;&#xa;&#xa;&#x2022; Kas a&#x11f;r&#x131;lar&#x131;&#xa;&#xa;&#x2022; Terleme&#xa;&#xa;&#x2022; Ba&#x15f; a&#x11f;r&#x131;s&#x131;&#xa;&#xa;&#x2022; Kuru veya kal&#x131;c&#x131; &#xf6;ks&#xfc;r&#xfc;k&#xa;&#xa;&#x2022; Yorgunluk&#xa;&#xa;&#x2022; Burun t&#x131;kan&#x131;kl&#x131;&#x11f;&#x131;&#xa;&#xa;&#x2022; Bo&#x11f;az a&#x11f;r&#x131;s&#x131;&#xa;&#xa;&#x2022; Halsizlik&#xa;&#xa;&#x2022; &#xd6;ks&#xfc;r&#xfc;&#x11f;e ba&#x11f;l&#x131; kusma&#xa;&#xa;Grip, &#xf6;zellikle gen&#xe7; ve sa&#x11f;l&#x131;kl&#x131; ki&#x15f;ilerde daha hafif bulgularla ortaya &#xe7;&#x131;kabilir&#xa;&#xa;Uzun s&#xfc;re devam eden grip tedavi edilmezse zat&#xfc;rre, bron&#x15f;it, sin&#xfc;zit gibi hastal&#x131;klara &#xa;yol a&#xe7;abilece&#x11f;i gibi, &#xf6;ncesinde ast&#x131;m ve kalp yetmezli&#x11f;i bulunan hastalarda bu hastal&#x131;klar&#x131;n &#xa;tablolar&#x131;n&#x131;n a&#x11f;&#x131;rla&#x15f;mas&#x131;na sebep olabilir. &#xd6;zellikle risk alt&#x131;ndaki hasta gruplar&#x131;nda, &#xa;zat&#xfc;rre ciddi bir komplikasyondur.&#xa;&#xa;&#x9;Tedavi Y&#xf6;ntemleri&#xa;&#xa;&#xa;Grip vir&#xfc;s&#xfc; &#x15f;iddetine g&#xf6;re farkl&#x131; tedavi se&#xe7;enekleri ile tedavi edilebilir. Bu tedavilerin &#xa;ba&#x15f;&#x131;nda genelde ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sisteminin kuvvetli tutulmas&#x131; hedeflenmektedir. Bunun d&#x131;&#x15f;&#x131;nda &#xa;mevsimsel ge&#xe7;i&#x15f; d&#xf6;neminde grip a&#x15f;&#x131;s&#x131; yapt&#x131;rarak, o sene salg&#x131;nlara neden olmas&#x131; muhtemel &#xa;vir&#xfc;s tiplerinden korunulabilir.&#xa;&#xa;Grip tedavisi i&#xe7;in genellikle burun spreyi, nefes a&#xe7;&#x131;c&#x131; spreyler, vitamin takviyeleri veya &#xa;hekiminizin uygun g&#xf6;rmesi halinde antiviral (vir&#xfc;slere kar&#x15f;&#x131;) ila&#xe7; tedavisi &#xf6;nerilebilir.&#xa;&#xa;Grip vir&#xfc;s&#xfc; hemen hemen her ya&#x15f;ta insan&#x131;n kar&#x15f;&#x131; kar&#x15f;&#x131;ya kalabilece&#x11f;i bir enfeksiyon t&#xfc;r&#xfc;d&#xfc;r. &#xa;Fakat grip vir&#xfc;s&#xfc;nden korunmak baz&#x131; &#xf6;nlemler alabilirsiniz. Bunlar;&#xa;&#xa;&#x2022; Ellerin s&#x131;k s&#x131;k y&#x131;kanmas&#x131;&#xa;&#xa;&#x2022; Hap&#x15f;&#x131;r&#x131;rken veya &#xf6;ks&#xfc;r&#xfc;rken a&#x11f;&#x131;z ve burnun kol ile kapat&#x131;lmas&#x131;&#xa;&#xa;&#x2022; Hasta ki&#x15f;i say&#x131;s&#x131;n&#x131;n artt&#x131;&#x11f;&#x131; d&#xf6;nemlerde kalabal&#x131;k ve kapal&#x131; ortamlardan uzak durmak.&#xa;&#xa;&#xa;&#xa;&#xa;Kaynak : https://www.acibadem.com.tr/ilgi-alani/grip/#nedenleri&#xa;"/>
+                            <Property name="caretPosition" type="int" value="0"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jPanel3">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="5c" green="c8" red="ff" type="rgb"/>
+                    </Property>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Alerji           ">
+                        <Property name="tabTitle" type="java.lang.String" value="Alerji           "/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jScrollPane4" min="-2" pref="955" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="179" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                              <Component id="jScrollPane4" min="-2" pref="546" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+                      <AuxValues>
+                        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                      </AuxValues>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextArea" name="alerjiTextArea">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Monospaced" size="14" style="0"/>
+                            </Property>
+                            <Property name="rows" type="int" value="5"/>
+                            <Property name="text" type="java.lang.String" value="          Genel Tan&#x131;t&#x131;m&#xa;&#xa;Polen, ar&#x131; zehri veya evcil hayvan kepe&#x11f;i gibi yabanc&#x131; bir maddeye veya &#xe7;o&#x11f;u insanda reaksiyona&#xa;neden olmayan bir yiyece&#x11f;e ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemi taraf&#x131;ndan verilen a&#x15f;&#x131;r&#x131; tepkilere alerji ad&#x131; verilmektedir.&#xa;&#xa;Normal &#x15f;artlar alt&#x131;nda ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemi v&#xfc;cudu zararl&#x131; nesnelere kar&#x15f;&#x131; savunma i&#x15f;levini yerine&#xa;getirmek i&#xe7;in bu nesnelere kar&#x15f;&#x131; antikor ad&#x131; verilen maddeleri &#xfc;retir. Alerjisi olan bireylerde&#xa;ise, ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemi belirli bir alerjeni zararl&#x131; olmasa bile zararl&#x131; olarak tan&#x131;mlayan&#xa;antikorlar &#xfc;retmeye ba&#x15f;lar. Bu nedenle birey alerjenle temas etti&#x11f;inde, ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemi&#xa;taraf&#x131;ndan g&#xf6;sterilen reaksiyon bireyin cildini, sin&#xfc;slerini, hava yollar&#x131;n&#x131; veya sindirim&#xa;sistemini k&#x131;zart&#x131;p &#x15f;i&#x15f;irebilir.&#xa;&#xa;Alerjilerin &#x15f;iddeti her bireyde farkl&#x131; g&#xf6;r&#xfc;l&#xfc;r ve k&#xfc;&#xe7;&#xfc;k bir tahri&#x15f; olmadan anafilaksiye kadar&#xa;uzanan bir yelpaze &#xfc;zerinde de&#x11f;i&#x15f;iklik g&#xf6;sterebilir. Alerjiler potansiyel olarak bireyin hayat&#x131;n&#x131;&#xa;tehdit eden bir acil durumdur. Her ne kadar &#xe7;o&#x11f;u alerji t&#xfc;r&#xfc; b&#xfc;t&#xfc;n&#xfc;yle tedavi edilemese de, alerji&#xa;belirtilerini hafifletmeye yard&#x131;mc&#x131; olabilecek tedavi y&#xf6;ntemleri mevcuttur.&#xa;&#xa;         Nedenleri&#xa;&#xa;&#xa;Alerji bireyin ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sisteminin normalde zarars&#x131;z bir maddeyi yanl&#x131;&#x15f;l&#x131;kla tehlikeli bir&#xa;istilac&#x131; olarak alg&#x131;lamas&#x131; ile ba&#x15f;lar. Ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemi s&#xf6;z konusu alerjen madde i&#xe7;in haz&#x131;rda bekleyen&#xa;antikorlar&#x131; &#xfc;retir. Birey alerjene tekrar maruz kald&#x131;&#x11f;&#x131;nda, bu antikorlar alerji semptomlar&#x131;na&#xa;neden olan histamin gibi ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemine &#xf6;zg&#xfc; bir dizi kimyasal salabilir.&#xa;&#xa;Alerjinin yayg&#x131;n tetikleyicileri aras&#x131;nda polenler, hayvan kepekleri, toz akarlar&#x131; ve havadaki k&#xfc;f&#xa;gibi alerjenler, &#xf6;zellikle yer f&#x131;st&#x131;&#x11f;&#x131;, a&#x11f;a&#xe7; f&#x131;st&#x131;&#x11f;&#x131;, bu&#x11f;day, soya, bal&#x131;k, kabuklu deniz &#xfc;r&#xfc;nleri,&#xa;yumurta ve s&#xfc;t gibi bir tak&#x131;m yiyecekler, ar&#x131;, e&#x15f;ek ar&#x131;s&#x131; veya yaban ar&#x131;s&#x131; gibi b&#xf6;cek sokmalar&#x131; say&#x131;labilir.&#xa;Ancak her bireyin her maddeye g&#xf6;sterdi&#x11f;i alerjik tepkinin seviyesi farkl&#x131;d&#x131;r.&#xa;Ailesinde saman nezlesi, kurde&#x15f;en veya egzama gibi gibi alerjik hastal&#x131;klar olanlar, &#xe7;ocuklar veya&#xa;ast&#x131;m gibi alerjik durumlar&#x131; olanlarda alerji geli&#x15f;mesi ihtimali y&#xfc;kselmektedir.&#xa;&#xa;          Alerji &#x130;le Ortaya &#xc7;&#x131;kabilecek Komplikasyonlar Nelerdir?&#xa;&#xa;&#xa;&#xa;Bireyde tek bir alerji olmas&#x131; bile, alerjiye ba&#x11f;l&#x131; anafilaksi, ast&#x131;m veya solunum yolu hastal&#x131;klar&#x131;&#xa;gibi &#xe7;e&#x15f;itli t&#x131;bbi sorunlar&#x131;n ortaya &#xe7;&#x131;kmas&#x131; riskini art&#x131;r&#x131;r. &#x15e;iddetli alerjisi olan bireylerde alerjiye&#xa;ba&#x11f;l&#x131; ciddi bir reaksiyon olan anaflaksi riski artar.&#xa;&#xa;G&#x131;dalar, ila&#xe7;lar ve b&#xf6;cek sokmalar&#x131; anafilaksinin en yayg&#x131;n tetikleyicileri aras&#x131;ndad&#x131;r. Alerjisi olan&#xa;bireylerde solunum yollar&#x131;n&#x131; ve nefes almay&#x131; etkileyen bir ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemi reaksiyonu olan ast&#x131;m&#xa;geli&#x15f;mesi ihtimali daha olas&#x131;d&#x131;r. Bir&#xe7;ok vakada ast&#x131;m, ortamdaki bir alerjene maruz kalmakla tetiklenir ve&#xa;buna alerjiye ba&#x11f;l&#x131; ast&#x131;m ya da alerjik ast&#x131;m denilir. Saman nezlesi ya da ast&#x131;m&#x131; olan bireylerin sin&#xfc;zit,&#xa;kulak veya akci&#x11f;er enfeksiyonlar&#x131;na yakalanmas&#x131; riski daha y&#xfc;ksektir.&#xa;&#xa;         Alerji Nas&#x131;l &#xd6;nlenir?&#xa;&#xa;&#xa;Alerjik reaksiyonlar&#x131; &#xf6;nlemek i&#xe7;in kullan&#x131;lacak y&#xf6;ntemler bireyin sahip oldu&#x11f;unu alerji t&#xfc;r&#xfc;ne g&#xf6;re&#xa;farkl&#x131;l&#x131;k g&#xf6;sterse de genelde ortak olarak al&#x131;nabilecek birka&#xe7; y&#xf6;ntem mevcuttur.&#xa;Bilinen tetikleyicilerden ka&#xe7;&#x131;nmak: Bireyin alerji belirtileri tedavi alt&#x131;nda olsa bile, tetikleyicilerden&#xa;ka&#xe7;&#x131;nmaya &#xe7;al&#x131;&#x15f;mas&#x131; &#xf6;nemlidir. &#xd6;rne&#x11f;in, polene alerjisi olan bireyler, polen miktar&#x131;n&#x131;n y&#xfc;ksek oldu&#x11f;u bahar&#xa;d&#xf6;nemlerinde pencereler ve kap&#x131;lar&#x131; kapal&#x131; tutarak i&#xe7; mekanlarda kalmay&#x131; tercih etmelidir. Toz akarlar&#x131;na&#xa;alerjisi olan bireyler s&#x131;k s&#x131;k evde temizlik yapmal&#x131;, yataklar&#x131; y&#x131;kamal&#x131; ve elektrikli s&#xfc;p&#xfc;rge ile toz almal&#x131;d&#x131;r.&#xa;&#xa;G&#xfc;nl&#xfc;k tutmak: Birey alerjik semptomlar&#x131;na neyin neden oldu&#x11f;unu veya neyin a&#x11f;&#x131;rla&#x15f;t&#x131;rd&#x131;&#x11f;&#x131;n&#x131; belirlemeye&#xa;&#xe7;al&#x131;&#x15f;&#x131;rken, aktivitelerini, ne yedi&#x11f;ini, semptomlar&#x131;n ne zaman ortaya &#xe7;&#x131;kt&#x131;&#x11f;&#x131;n&#x131; ve neyin hafifletmeye&#xa;yard&#x131;mc&#x131; oldu&#x11f;unu g&#xf6;rebilmek i&#xe7;in bir g&#xfc;nl&#xfc;k tutmas&#x131; i&#x15f;e yarayacakt&#x131;r. Bu, doktorun ve bireyin&#xa;tetikleyicileri belirlemesine yard&#x131;mc&#x131; olabilir.&#xa;&#xa;T&#x131;bbi uyar&#x131; bilezi&#x11f;i takmak. Ciddi bir alerjik reaksiyonu olan bireyler, &#xfc;zerinde bununla ilgili&#xa;bilgilerin yaz&#x131;l&#x131; oldu&#x11f;u t&#x131;bbi bir uyar&#x131; bilezi&#x11f;i veya kolye takmal&#x131;d&#x131;r. Bu sayede bireyi etkisiz hale getirecek&#xa;ve &#xe7;evreyle ileti&#x15f;im kurmas&#x131;n&#x131; engelleyecek bir alerjik reaksiyon oldu&#x11f;unda, etraf&#x131;ndaki ki&#x15f;ileri&#xa;ciddi bir alerjisi oldu&#x11f;una dair bilgilendirmesi m&#xfc;mk&#xfc;n olacakt&#x131;r.&#xa;&#xa;           Belirtiler&#xa;&#xa;&#xa;Alerji Belirtileri Ve Tipleri Nelerdir?&#xa;Maddelere ba&#x11f;l&#x131; alerji belirtileri bireyin solunum yollar&#x131;n&#x131;, sin&#xfc;slerini ve burun a&#xe7;&#x131;kl&#x131;klar&#x131;n&#x131;,&#xa;cildi ve sindirim sistemini etkileyebilir. Alerjik reaksiyonlar hafif ila &#x15f;iddetli aras&#x131;nda de&#x11f;i&#x15f;ik&#xa;&#x15f;iddetlerde g&#xf6;r&#xfc;lebilir. Baz&#x131; ciddi vakalarda, alerjiler anafilaksi olarak bilinen ve hayat&#x131; tehdit eden&#xa;bir reaksiyonu tetikleyebilir. Her alerji tipinin kendine has belirtileri vard&#x131;r.&#xa;&#xa;Halk aras&#x131;nda saman nezlesi olarak adland&#x131;r&#x131;lan alerjik rinit, hap&#x15f;&#x131;rma, burunda, g&#xf6;zlerde veya damakta&#xa;ak&#x131;nt&#x131;, t&#x131;kal&#x131; burun ve konjonktivit ad&#x131; verilen sulu, k&#x131;rm&#x131;z&#x131; veya &#x15f;i&#x15f;mi&#x15f; g&#xf6;zler &#x15f;eklinde semptom ve&#xa;belirtilere sahiptir.&#xa;&#xa;G&#x131;da alerjisi ise a&#x11f;&#x131;zda kar&#x131;ncalanma, bo&#x11f;az&#x131;n, dilin, dudaklar&#x131;n veya y&#xfc;z&#xfc;n &#x15f;i&#x15f;mesi, kurde&#x15f;en ya da&#xa;anafilaksi &#x15f;eklinde belirtilere ve semptomlara sahiptir. &#x130;la&#xe7; alerjisi ise kurde&#x15f;ene, ciltte ka&#x15f;&#x131;nt&#x131;ya&#xa;ve d&#xf6;k&#xfc;nt&#xfc;ye, y&#xfc;z &#x15f;i&#x15f;mesine, nefes darl&#x131;&#x11f;&#x131;na veya anafilaksiye neden olabilir.&#xa;B&#xf6;cek veya ar&#x131; sokmas&#x131;ndan kaynaklanan alerjilerde ise sokma b&#xf6;lgesinde geni&#x15f; bir &#x15f;i&#x15f;lik alan&#x131; yani&#xa;&#xf6;dem, v&#xfc;cudun her yerinde ka&#x15f;&#x131;nt&#x131; veya kurde&#x15f;en, &#xf6;ks&#xfc;r&#xfc;k, g&#xf6;&#x11f;&#xfc;ste s&#x131;k&#x131;&#x15f;ma, h&#x131;r&#x131;lt&#x131;l&#x131; solunum veya&#xa;nefes darl&#x131;&#x11f;&#x131; ya da anafilaksi g&#xf6;r&#xfc;lebilir.&#xa;&#xa;Egzama olarak da adland&#x131;r&#x131;lan alerjik bir cilt rahats&#x131;zl&#x131;&#x11f;&#x131; olan atopik dermatit, ciltte ka&#x15f;&#x131;nt&#x131;ya,&#xa;k&#x131;zar&#x131;kl&#x131;&#x11f;a, pullanmaya ve soyulmaya neden olabilir:&#xa;Anafilaksi Nedir?&#xa;Aralar&#x131;nda g&#x131;da alerjisi ve b&#xf6;cek sokmas&#x131;na kar&#x15f;&#x131; alerjilerin de bulundu&#x11f;u baz&#x131; alerji t&#xfc;rleri v&#xfc;cutta&#xa;anafilaksi olarak bilinen ani ve a&#x11f;&#x131;r ciddi bir reaksiyonu tetikleyebilir. &#x130;nsan hayat&#x131;n&#x131; do&#x11f;rudan&#xa;tehdit eden t&#x131;bbi bir acil durum olan anafilaksi, bireyin &#x15f;oka girmesine neden olabilir.&#xa;&#xa;Anafilaksi belirtileri ve semptomlar&#x131; aras&#x131;nda bilin&#xe7; kayb&#x131;, tansiyonda d&#xfc;&#x15f;&#xfc;&#x15f;, &#x15f;iddetli nefes darl&#x131;&#x11f;&#x131;,&#xa;deri d&#xf6;k&#xfc;nt&#xfc;s&#xfc;, ba&#x15f; d&#xf6;nmesi, h&#x131;zl&#x131; ve zay&#x131;f nab&#x131;z ile bulant&#x131; ve kusma bulunur. Do&#x11f;ru bir &#x15f;ekilde&#xa;m&#xfc;dahale edilmeyen anafilaksi, anafilaktik &#x15f;oka ve &#xf6;l&#xfc;me neden olabilir.&#xa;&#xa;Alerjik tepki verdi&#x11f;ini d&#xfc;&#x15f;&#xfc;nen ve re&#xe7;etesiz sat&#x131;lan alerji ila&#xe7;lar&#x131;ndan yeterli fayda ve rahatlama&#xa;g&#xf6;rmeyen bireyler alerji kontrol&#xfc; i&#xe7;in bir doktora ba&#x15f;vurmal&#x131;d&#x131;r.  Yeni bir ilaca ba&#x15f;lad&#x131;ktan sonra&#xa;alerji belirtileri g&#xf6;steren bireyler hemen doktorlar&#x131;na ula&#x15f;mal&#x131;d&#x131;r.&#xa;&#xa;&#x15e;iddetli alerjik reaksiyon yani anafilaksi durumunda acil t&#x131;bbi yard&#x131;m al&#x131;nmal&#x131;d&#x131;r. 112 acil durum&#xa;numaras&#x131; t&#x131;bbi yard&#x131;ma h&#x131;zla ula&#x15f;may&#x131; sa&#x11f;layabilir. Alerjik tepkimesi olan bireyin &#xfc;zerinde otomatik&#xa;epinefrin enjekt&#xf6;r&#xfc; varsa hemen kullanmas&#x131; gerekebilir. Bir epinefrin enjeksiyonundan sonra bireyin&#xa;g&#xf6;sterdi&#x11f;i belirtiler ve semptomlar iyile&#x15f;se bile, enjeksiyonun etkileri sona erdi&#x11f;inde semptomlar&#x131;n&#xa;geri d&#xf6;nmeyece&#x11f;inden emin olmak i&#xe7;in acil servise gidilmesi gereklidir&#xa;&#xa;&#x15e;iddetli bir alerji ata&#x11f;&#x131; ge&#xe7;iren veya ge&#xe7;mi&#x15f;te anafilaksi belirtileri ve semptomlar&#x131; g&#xf6;steren bireylerin&#xa;doktor ile g&#xf6;r&#xfc;&#x15f;mesi gerekebilir. Anafilaksinin de&#x11f;erlendirilmesi, te&#x15f;hisi ve uzun s&#xfc;reli y&#xf6;netimi basit bir&#xa;i&#x15f;lem de&#x11f;ildir, bu nedenle muhtemelen alerji ve imm&#xfc;noloji konusunda uzmanla&#x15f;m&#x131;&#x15f; bir doktora g&#xf6;r&#xfc;nmeniz en&#xa;do&#x11f;rusu olacakt&#x131;r.&#xa;&#xa;         Tan&#x131; Y&#xf6;ntemleri&#xa;&#xa;&#xa;Doktor bireyde alerji olup olmad&#x131;&#x11f;&#x131;n&#x131; anlamak i&#xe7;in &#xf6;ncelikle sorun ve belirtileri hakk&#x131;nda &#xe7;e&#x15f;itli ve&#xa;ayr&#x131;nt&#x131;l&#x131; sorular soracakt&#x131;r. Bir fizik muayene ger&#xe7;ekle&#x15f;tirecektir ve belirtiler ile olas&#x131; tetikleyicileri&#xa;saptamak i&#xe7;in detayl&#x131; bir g&#xfc;nl&#xfc;k tutulmas&#x131;n&#x131; isteyecektir.&#xa;&#xa;Yemek alerjisi durumunda doktor bireyin yedi&#x11f;i besinlerin ayr&#x131;nt&#x131;l&#x131; bir g&#xfc;nl&#xfc;&#x11f;&#xfc; tutmas&#x131;n&#x131; isteyecek ve&#xa;alerji de&#x11f;erlendirmesi esnas&#x131;nda &#x15f;&#xfc;pheli yiyecekleri yemeyi b&#x131;rak&#x131;p b&#x131;rakmad&#x131;&#x11f;&#x131;n&#x131; soracakt&#x131;r.&#xa;&#xa;Bunlar haricinde doktorun &#xf6;nerebilece&#x11f;i bir ka&#xe7; tane test vard&#x131;r. Bu testlerin yanl&#x131;&#x15f; pozitif ya&#xa;da yanl&#x131;&#x15f; negatif sonu&#xe7; vermesi ihtimali mevcuttur.&#xa;&#xa;Testlerden ilki cilt testidir. Bu test s&#x131;ras&#x131;nda bir sa&#x11f;l&#x131;k uzman&#x131; bireyin cildinde k&#xfc;&#xe7;&#xfc;k delikler&#xa;a&#xe7;acak, ard&#x131;ndan bu deliklerin &#xfc;zerine potansiyel alerjenler i&#xe7;eren mikro miktarda protein s&#x131;v&#x131;lar&#x131;&#xa;damlatacak, ve bu damlalar&#x131;n i&#xe7;eriklerini i&#x15f;aretleyecektir. Bireyin alerjisi oldu&#x11f;u maddeleri i&#xe7;eren&#xa;damlalar v&#xfc;cutta b&#xf6;lgesel bir yumru &#x15f;eklinde kabarmaya neden olacakt&#x131;r.&#xa;&#xa;&#x130;kinci test ise bir kan testidir. Yayg&#x131;n olarak radioallergosorbent testi veya &#x130;mmunoCAP testi&#xa;olarak adland&#x131;r&#x131;lan spesifik IgE (sIgE) kan testi, bireyin kan dola&#x15f;&#x131;m&#x131;ndaki immunoglobulin E ve&#xa;antikorlar&#x131; olarak bilinen alerjiye neden olan antikorlar&#x131;n miktar&#x131;n&#x131; &#xf6;l&#xe7;er.&#xa;&#xa;Doktor, sorunun alerji d&#x131;&#x15f;&#x131;nda bir &#x15f;eyden kaynakland&#x131;&#x11f;&#x131;ndan &#x15f;&#xfc;phelendi&#x11f;i vakalarda isteyebilece&#x11f;i&#xa;di&#x11f;er testler ile di&#x11f;er t&#x131;bbi olas&#x131;l&#x131;klar&#x131;n elenmesine yard&#x131;mc&#x131; olabilir.&#xa;&#xa;          Tedavi Y&#xf6;ntemleri&#xa;&#xa;&#xa;Alerjik reaksiyonlar&#x131; &#xf6;nlemede ve semptomlar&#x131; azaltmada en &#xf6;nemli ad&#x131;m alerjenlerden ka&#xe7;&#x131;nmad&#x131;r.&#xa;Bireyde g&#xf6;r&#xfc;len alerjiye ba&#x11f;l&#x131; olarak kullan&#x131;labilecek ila&#xe7;lar ba&#x11f;&#x131;&#x15f;&#x131;kl&#x131;k sistemi reaksiyonunu&#xa;azaltmaya ve semptomlar&#x131; hafifletmeye yard&#x131;mc&#x131; olabilir. Doktor re&#xe7;etesiz veya re&#xe7;eteli ila&#xe7;lar&#x131;,&#xa;alerji hap&#x131; veya alerji &#x15f;urubu ya da burun spreyi veya g&#xf6;z damlalar&#x131; &#x15f;eklinde &#xf6;nerebilir.&#xa;Di&#x11f;er tedavilerle tamamen rahatlamayan &#x15f;iddetli alerjiler i&#xe7;in doktor taraf&#x131;ndan alerjen imm&#xfc;noterapisi&#xa;&#xf6;nerilebilir. Bu tedavi, genellikle birka&#xe7; y&#x131;ll&#x131;k bir s&#xfc;re boyunca verilen bir dizi safla&#x15f;t&#x131;r&#x131;lm&#x131;&#x15f;&#xa;alerjen &#xf6;z&#xfc;t&#xfc; enjeksiyonunu i&#xe7;erir. Bir ba&#x15f;ka imm&#xfc;noterapi bi&#xe7;imi ise, b&#xfc;t&#xfc;n&#xfc;yle &#xe7;&#xf6;z&#xfc;nene kadar dilin&#xa;alt&#x131;na yerle&#x15f;tirilen bir dil alt&#x131; tabletidir. Dil alt&#x131; ila&#xe7;lar&#x131; genellikle baz&#x131; polen alerjilerini tedavi&#xa;etmek i&#xe7;in kullan&#x131;l&#x131;r.&#xa;&#xa;&#x15e;iddetli bir alerjik reaksiyon durumunda adrenalin &#x15f;&#x131;r&#x131;ngas&#x131; kullan&#x131;lmas&#x131; gerekebilir. Adrenalin&#xa;acil tedavi alana kadar g&#xf6;r&#xfc;len alerjik semptomlar&#x131; azaltabilir.&#xa;&#xa;         Alerji &#x130;&#xe7;in Ya&#x15f;am Tarz&#x131; De&#x11f;i&#x15f;iklikleri&#xa;&#xa;&#xa;Baz&#x131; alerji belirtileri evde tedavi ile d&#xfc;zelebilir. Sin&#xfc;s t&#x131;kan&#x131;kl&#x131;&#x11f;&#x131; ve saman nezlesi belirtileri&#xa;genellikle sin&#xfc;sleri bir tuzlu su &#xe7;&#xf6;zeltisi ile durulad&#x131;ktan sonra hafifler.&#xa;&#xa;Ev alerjisi belirtileri ise yataklar&#x131; ve doldurulmu&#x15f;, pelu&#x15f; oyuncaklar&#x131; s&#x131;k s&#x131;k s&#x131;cak suda y&#x131;kayarak,&#xa;mekan i&#xe7;inde d&#xfc;&#x15f;&#xfc;k nem olmas&#x131;na dikkat ederek, d&#xfc;zenli olarak y&#xfc;ksek verimli hava partik&#xfc;l&#xfc; (HEPA) filtresi&#xa;gibi ince filtreli bir elektrikli s&#xfc;p&#xfc;rge  kullanarak ve ev i&#xe7;i hal&#x131;lar yerine &#xe7;&#x131;plak zeminde ya&#x15f;amay&#x131;&#xa;tercih ederek azalt&#x131;labilir. Bu sayede hem toz akarlar&#x131;na hem de evcil hayvan kepe&#x11f;ine maruz kal&#x131;nmas&#x131; &#xf6;nlenebilir.&#xa;&#xa;Havaland&#x131;rma fanlar&#x131; ve nem gidericiler kullanarak banyo ve mutfak gibi nemli alanlardaki nemi azalt&#x131;p,&#xa;k&#xfc;f alerjisinin belirtilerinden korunmak m&#xfc;mk&#xfc;nd&#xfc;r.&#xa;&#xa;&#xa;Kaynak : https://www.acibadem.com.tr/ilgi-alani/alerji/#tedavi-yontemleri"/>
+                            <Property name="caretPosition" type="int" value="0"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="ayarlarPanel">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="5c" green="c8" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
+              <CardConstraints cardName="card2"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="446" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="guncelleButon" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="eskiSifreLabel" linkSize="16" alignment="1" min="-2" pref="85" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                          <Component id="yeniAdSoyadLabel" linkSize="16" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
+                                          <Component id="yeniTcNoLabel" linkSize="16" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="yeniCinsiyetLabel" linkSize="16" alignment="1" min="-2" pref="174" max="-2" attributes="0"/>
+                                      <Component id="yeniYasLabel" linkSize="16" alignment="1" min="-2" pref="85" max="-2" attributes="0"/>
+                                      <Component id="yeniKiloLabel" linkSize="16" alignment="1" min="-2" pref="85" max="-2" attributes="0"/>
+                                      <Component id="yeniBoyLabel" linkSize="16" alignment="1" min="-2" pref="85" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="yeniResimLabel" linkSize="16" min="-2" pref="93" max="-2" attributes="0"/>
+                                  <Component id="yeniSifreLabel" linkSize="16" min="-2" pref="93" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="yeniResimButon" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="yeniSifrePasswordField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="eskiSifrePasswordField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="yeniCinsiyetComboBox" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="yeniAdSoyadTextField" max="32767" attributes="0"/>
+                                  <Component id="yeniTcNoTextField" pref="158" max="32767" attributes="0"/>
+                                  <Component id="yeniYasComboBox" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="yeniKiloComboBox" max="32767" attributes="0"/>
+                                  <Component id="yeniBoyComboBox" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="527" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="yeniAdSoyadLabel" linkSize="15" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="yeniAdSoyadTextField" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="yeniTcNoLabel" linkSize="15" max="32767" attributes="0"/>
+                          <Component id="yeniTcNoTextField" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="yeniCinsiyetComboBox" min="-2" pref="29" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="yeniYasComboBox" min="-2" pref="31" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="yeniCinsiyetLabel" linkSize="15" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="yeniYasLabel" linkSize="15" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="yeniKiloLabel" linkSize="15" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="yeniBoyLabel" linkSize="15" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="yeniKiloComboBox" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="yeniBoyComboBox" min="-2" pref="32" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="eskiSifreLabel" linkSize="15" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="yeniSifreLabel" linkSize="15" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="eskiSifrePasswordField" min="-2" pref="29" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              <Component id="yeniSifrePasswordField" min="-2" pref="30" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="yeniResimLabel" linkSize="15" min="-2" max="-2" attributes="0"/>
+                          <Component id="yeniResimButon" min="-2" pref="32" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                      <Component id="guncelleButon" min="-2" pref="39" max="-2" attributes="0"/>
+                      <EmptySpace pref="187" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="yeniTcNoLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Tc Numaras&#x131;"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[99, 30]"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="yeniAdSoyadLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ad Soyad"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[99, 30]"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="yeniAdSoyadTextField">
+            </Component>
+            <Component class="javax.swing.JTextField" name="yeniTcNoTextField">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="yeniTcNoTextFieldActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="eskiSifreLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Eski &#x15e;ifre"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="yeniCinsiyetLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cinsiyet"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[99, 30]"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="eskiSifrePasswordField">
+            </Component>
+            <Component class="javax.swing.JLabel" name="yeniResimLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Foto&#x11f;raf"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JPasswordField" name="yeniSifrePasswordField">
+            </Component>
+            <Component class="javax.swing.JComboBox" name="yeniCinsiyetComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="2">
+                    <StringItem index="0" value="Bay"/>
+                    <StringItem index="1" value="Bayan"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="yeniSifreLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Yeni &#x15e;ifre"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="yeniYasLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ya&#x15f;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="yeniResimButon">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Dosya Se&#xe7;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="yeniResimButonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="yeniYasComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="88">
+                    <StringItem index="0" value="13"/>
+                    <StringItem index="1" value="14"/>
+                    <StringItem index="2" value="15"/>
+                    <StringItem index="3" value="16"/>
+                    <StringItem index="4" value="17"/>
+                    <StringItem index="5" value="18"/>
+                    <StringItem index="6" value="19"/>
+                    <StringItem index="7" value="20"/>
+                    <StringItem index="8" value="21"/>
+                    <StringItem index="9" value="22"/>
+                    <StringItem index="10" value="23"/>
+                    <StringItem index="11" value="24"/>
+                    <StringItem index="12" value="25"/>
+                    <StringItem index="13" value="26"/>
+                    <StringItem index="14" value="27"/>
+                    <StringItem index="15" value="28"/>
+                    <StringItem index="16" value="29"/>
+                    <StringItem index="17" value="30"/>
+                    <StringItem index="18" value="31"/>
+                    <StringItem index="19" value="32"/>
+                    <StringItem index="20" value="33"/>
+                    <StringItem index="21" value="34"/>
+                    <StringItem index="22" value="35"/>
+                    <StringItem index="23" value="36"/>
+                    <StringItem index="24" value="37"/>
+                    <StringItem index="25" value="38"/>
+                    <StringItem index="26" value="39"/>
+                    <StringItem index="27" value="40"/>
+                    <StringItem index="28" value="41"/>
+                    <StringItem index="29" value="42"/>
+                    <StringItem index="30" value="43"/>
+                    <StringItem index="31" value="44"/>
+                    <StringItem index="32" value="45"/>
+                    <StringItem index="33" value="46"/>
+                    <StringItem index="34" value="47"/>
+                    <StringItem index="35" value="48"/>
+                    <StringItem index="36" value="49"/>
+                    <StringItem index="37" value="50"/>
+                    <StringItem index="38" value="51"/>
+                    <StringItem index="39" value="52"/>
+                    <StringItem index="40" value="53"/>
+                    <StringItem index="41" value="54"/>
+                    <StringItem index="42" value="55"/>
+                    <StringItem index="43" value="56"/>
+                    <StringItem index="44" value="57"/>
+                    <StringItem index="45" value="58"/>
+                    <StringItem index="46" value="59"/>
+                    <StringItem index="47" value="60"/>
+                    <StringItem index="48" value="61"/>
+                    <StringItem index="49" value="62"/>
+                    <StringItem index="50" value="63"/>
+                    <StringItem index="51" value="64"/>
+                    <StringItem index="52" value="65"/>
+                    <StringItem index="53" value="66"/>
+                    <StringItem index="54" value="67"/>
+                    <StringItem index="55" value="68"/>
+                    <StringItem index="56" value="69"/>
+                    <StringItem index="57" value="70"/>
+                    <StringItem index="58" value="71"/>
+                    <StringItem index="59" value="72"/>
+                    <StringItem index="60" value="73"/>
+                    <StringItem index="61" value="74"/>
+                    <StringItem index="62" value="75"/>
+                    <StringItem index="63" value="76"/>
+                    <StringItem index="64" value="77"/>
+                    <StringItem index="65" value="78"/>
+                    <StringItem index="66" value="79"/>
+                    <StringItem index="67" value="80"/>
+                    <StringItem index="68" value="81"/>
+                    <StringItem index="69" value="82"/>
+                    <StringItem index="70" value="83"/>
+                    <StringItem index="71" value="84"/>
+                    <StringItem index="72" value="85"/>
+                    <StringItem index="73" value="86"/>
+                    <StringItem index="74" value="87"/>
+                    <StringItem index="75" value="88"/>
+                    <StringItem index="76" value="89"/>
+                    <StringItem index="77" value="90"/>
+                    <StringItem index="78" value="91"/>
+                    <StringItem index="79" value="92"/>
+                    <StringItem index="80" value="93"/>
+                    <StringItem index="81" value="94"/>
+                    <StringItem index="82" value="95"/>
+                    <StringItem index="83" value="96"/>
+                    <StringItem index="84" value="97"/>
+                    <StringItem index="85" value="98"/>
+                    <StringItem index="86" value="99"/>
+                    <StringItem index="87" value="100"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="yeniKiloLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Kilo"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="yeniKiloComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="170">
+                    <StringItem index="0" value="30"/>
+                    <StringItem index="1" value="31"/>
+                    <StringItem index="2" value="32"/>
+                    <StringItem index="3" value="33"/>
+                    <StringItem index="4" value="34"/>
+                    <StringItem index="5" value="35"/>
+                    <StringItem index="6" value="36"/>
+                    <StringItem index="7" value="37"/>
+                    <StringItem index="8" value="38"/>
+                    <StringItem index="9" value="39"/>
+                    <StringItem index="10" value="40"/>
+                    <StringItem index="11" value="41"/>
+                    <StringItem index="12" value="42"/>
+                    <StringItem index="13" value="43"/>
+                    <StringItem index="14" value="44"/>
+                    <StringItem index="15" value="45"/>
+                    <StringItem index="16" value="46"/>
+                    <StringItem index="17" value="47"/>
+                    <StringItem index="18" value="48"/>
+                    <StringItem index="19" value="49"/>
+                    <StringItem index="20" value="50"/>
+                    <StringItem index="21" value="51"/>
+                    <StringItem index="22" value="52"/>
+                    <StringItem index="23" value="53"/>
+                    <StringItem index="24" value="54"/>
+                    <StringItem index="25" value="55"/>
+                    <StringItem index="26" value="56"/>
+                    <StringItem index="27" value="57"/>
+                    <StringItem index="28" value="58"/>
+                    <StringItem index="29" value="59"/>
+                    <StringItem index="30" value="60"/>
+                    <StringItem index="31" value="61"/>
+                    <StringItem index="32" value="62"/>
+                    <StringItem index="33" value="63"/>
+                    <StringItem index="34" value="64"/>
+                    <StringItem index="35" value="65"/>
+                    <StringItem index="36" value="66"/>
+                    <StringItem index="37" value="67"/>
+                    <StringItem index="38" value="68"/>
+                    <StringItem index="39" value="69"/>
+                    <StringItem index="40" value="70"/>
+                    <StringItem index="41" value="71"/>
+                    <StringItem index="42" value="72"/>
+                    <StringItem index="43" value="73"/>
+                    <StringItem index="44" value="74"/>
+                    <StringItem index="45" value="75"/>
+                    <StringItem index="46" value="76"/>
+                    <StringItem index="47" value="77"/>
+                    <StringItem index="48" value="78"/>
+                    <StringItem index="49" value="79"/>
+                    <StringItem index="50" value="80"/>
+                    <StringItem index="51" value="81"/>
+                    <StringItem index="52" value="82"/>
+                    <StringItem index="53" value="83"/>
+                    <StringItem index="54" value="84"/>
+                    <StringItem index="55" value="85"/>
+                    <StringItem index="56" value="86"/>
+                    <StringItem index="57" value="87"/>
+                    <StringItem index="58" value="88"/>
+                    <StringItem index="59" value="89"/>
+                    <StringItem index="60" value="90"/>
+                    <StringItem index="61" value="91"/>
+                    <StringItem index="62" value="92"/>
+                    <StringItem index="63" value="93"/>
+                    <StringItem index="64" value="94"/>
+                    <StringItem index="65" value="95"/>
+                    <StringItem index="66" value="96"/>
+                    <StringItem index="67" value="97"/>
+                    <StringItem index="68" value="98"/>
+                    <StringItem index="69" value="99"/>
+                    <StringItem index="70" value="100"/>
+                    <StringItem index="71" value="101"/>
+                    <StringItem index="72" value="102"/>
+                    <StringItem index="73" value="103"/>
+                    <StringItem index="74" value="104"/>
+                    <StringItem index="75" value="105"/>
+                    <StringItem index="76" value="106"/>
+                    <StringItem index="77" value="107"/>
+                    <StringItem index="78" value="108"/>
+                    <StringItem index="79" value="109"/>
+                    <StringItem index="80" value="110"/>
+                    <StringItem index="81" value="111"/>
+                    <StringItem index="82" value="112"/>
+                    <StringItem index="83" value="113"/>
+                    <StringItem index="84" value="114"/>
+                    <StringItem index="85" value="115"/>
+                    <StringItem index="86" value="116"/>
+                    <StringItem index="87" value="117"/>
+                    <StringItem index="88" value="118"/>
+                    <StringItem index="89" value="119"/>
+                    <StringItem index="90" value="120"/>
+                    <StringItem index="91" value="121"/>
+                    <StringItem index="92" value="122"/>
+                    <StringItem index="93" value="123"/>
+                    <StringItem index="94" value="124"/>
+                    <StringItem index="95" value="125"/>
+                    <StringItem index="96" value="126"/>
+                    <StringItem index="97" value="127"/>
+                    <StringItem index="98" value="128"/>
+                    <StringItem index="99" value="129"/>
+                    <StringItem index="100" value="130"/>
+                    <StringItem index="101" value="131"/>
+                    <StringItem index="102" value="132"/>
+                    <StringItem index="103" value="133"/>
+                    <StringItem index="104" value="134"/>
+                    <StringItem index="105" value="135"/>
+                    <StringItem index="106" value="136"/>
+                    <StringItem index="107" value="137"/>
+                    <StringItem index="108" value="138"/>
+                    <StringItem index="109" value="139"/>
+                    <StringItem index="110" value="140"/>
+                    <StringItem index="111" value="141"/>
+                    <StringItem index="112" value="142"/>
+                    <StringItem index="113" value="143"/>
+                    <StringItem index="114" value="144"/>
+                    <StringItem index="115" value="145"/>
+                    <StringItem index="116" value="146"/>
+                    <StringItem index="117" value="147"/>
+                    <StringItem index="118" value="148"/>
+                    <StringItem index="119" value="149"/>
+                    <StringItem index="120" value="150"/>
+                    <StringItem index="121" value="151"/>
+                    <StringItem index="122" value="152"/>
+                    <StringItem index="123" value="153"/>
+                    <StringItem index="124" value="154"/>
+                    <StringItem index="125" value="155"/>
+                    <StringItem index="126" value="156"/>
+                    <StringItem index="127" value="157"/>
+                    <StringItem index="128" value="158"/>
+                    <StringItem index="129" value="159"/>
+                    <StringItem index="130" value="160"/>
+                    <StringItem index="131" value="161"/>
+                    <StringItem index="132" value="162"/>
+                    <StringItem index="133" value="163"/>
+                    <StringItem index="134" value="164"/>
+                    <StringItem index="135" value="165"/>
+                    <StringItem index="136" value="166"/>
+                    <StringItem index="137" value="167"/>
+                    <StringItem index="138" value="168"/>
+                    <StringItem index="139" value="169"/>
+                    <StringItem index="140" value="170"/>
+                    <StringItem index="141" value="171"/>
+                    <StringItem index="142" value="172"/>
+                    <StringItem index="143" value="173"/>
+                    <StringItem index="144" value="174"/>
+                    <StringItem index="145" value="175"/>
+                    <StringItem index="146" value="176"/>
+                    <StringItem index="147" value="177"/>
+                    <StringItem index="148" value="178"/>
+                    <StringItem index="149" value="179"/>
+                    <StringItem index="150" value="180"/>
+                    <StringItem index="151" value="181"/>
+                    <StringItem index="152" value="182"/>
+                    <StringItem index="153" value="183"/>
+                    <StringItem index="154" value="184"/>
+                    <StringItem index="155" value="185"/>
+                    <StringItem index="156" value="186"/>
+                    <StringItem index="157" value="187"/>
+                    <StringItem index="158" value="188"/>
+                    <StringItem index="159" value="189"/>
+                    <StringItem index="160" value="190"/>
+                    <StringItem index="161" value="191"/>
+                    <StringItem index="162" value="192"/>
+                    <StringItem index="163" value="193"/>
+                    <StringItem index="164" value="194"/>
+                    <StringItem index="165" value="195"/>
+                    <StringItem index="166" value="196"/>
+                    <StringItem index="167" value="197"/>
+                    <StringItem index="168" value="198"/>
+                    <StringItem index="169" value="199"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="yeniBoyLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Boy"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="yeniBoyComboBox">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="180">
+                    <StringItem index="0" value="70"/>
+                    <StringItem index="1" value="71"/>
+                    <StringItem index="2" value="72"/>
+                    <StringItem index="3" value="73"/>
+                    <StringItem index="4" value="74"/>
+                    <StringItem index="5" value="75"/>
+                    <StringItem index="6" value="76"/>
+                    <StringItem index="7" value="77"/>
+                    <StringItem index="8" value="78"/>
+                    <StringItem index="9" value="79"/>
+                    <StringItem index="10" value="80"/>
+                    <StringItem index="11" value="81"/>
+                    <StringItem index="12" value="82"/>
+                    <StringItem index="13" value="83"/>
+                    <StringItem index="14" value="84"/>
+                    <StringItem index="15" value="85"/>
+                    <StringItem index="16" value="86"/>
+                    <StringItem index="17" value="87"/>
+                    <StringItem index="18" value="88"/>
+                    <StringItem index="19" value="89"/>
+                    <StringItem index="20" value="90"/>
+                    <StringItem index="21" value="91"/>
+                    <StringItem index="22" value="92"/>
+                    <StringItem index="23" value="93"/>
+                    <StringItem index="24" value="94"/>
+                    <StringItem index="25" value="95"/>
+                    <StringItem index="26" value="96"/>
+                    <StringItem index="27" value="97"/>
+                    <StringItem index="28" value="98"/>
+                    <StringItem index="29" value="99"/>
+                    <StringItem index="30" value="100"/>
+                    <StringItem index="31" value="101"/>
+                    <StringItem index="32" value="102"/>
+                    <StringItem index="33" value="103"/>
+                    <StringItem index="34" value="104"/>
+                    <StringItem index="35" value="105"/>
+                    <StringItem index="36" value="106"/>
+                    <StringItem index="37" value="107"/>
+                    <StringItem index="38" value="108"/>
+                    <StringItem index="39" value="109"/>
+                    <StringItem index="40" value="110"/>
+                    <StringItem index="41" value="111"/>
+                    <StringItem index="42" value="112"/>
+                    <StringItem index="43" value="113"/>
+                    <StringItem index="44" value="114"/>
+                    <StringItem index="45" value="115"/>
+                    <StringItem index="46" value="116"/>
+                    <StringItem index="47" value="117"/>
+                    <StringItem index="48" value="118"/>
+                    <StringItem index="49" value="119"/>
+                    <StringItem index="50" value="120"/>
+                    <StringItem index="51" value="121"/>
+                    <StringItem index="52" value="122"/>
+                    <StringItem index="53" value="123"/>
+                    <StringItem index="54" value="124"/>
+                    <StringItem index="55" value="125"/>
+                    <StringItem index="56" value="126"/>
+                    <StringItem index="57" value="127"/>
+                    <StringItem index="58" value="128"/>
+                    <StringItem index="59" value="129"/>
+                    <StringItem index="60" value="130"/>
+                    <StringItem index="61" value="131"/>
+                    <StringItem index="62" value="132"/>
+                    <StringItem index="63" value="133"/>
+                    <StringItem index="64" value="134"/>
+                    <StringItem index="65" value="135"/>
+                    <StringItem index="66" value="136"/>
+                    <StringItem index="67" value="137"/>
+                    <StringItem index="68" value="138"/>
+                    <StringItem index="69" value="139"/>
+                    <StringItem index="70" value="140"/>
+                    <StringItem index="71" value="141"/>
+                    <StringItem index="72" value="142"/>
+                    <StringItem index="73" value="143"/>
+                    <StringItem index="74" value="144"/>
+                    <StringItem index="75" value="145"/>
+                    <StringItem index="76" value="146"/>
+                    <StringItem index="77" value="147"/>
+                    <StringItem index="78" value="148"/>
+                    <StringItem index="79" value="149"/>
+                    <StringItem index="80" value="150"/>
+                    <StringItem index="81" value="151"/>
+                    <StringItem index="82" value="152"/>
+                    <StringItem index="83" value="153"/>
+                    <StringItem index="84" value="154"/>
+                    <StringItem index="85" value="155"/>
+                    <StringItem index="86" value="156"/>
+                    <StringItem index="87" value="157"/>
+                    <StringItem index="88" value="158"/>
+                    <StringItem index="89" value="159"/>
+                    <StringItem index="90" value="160"/>
+                    <StringItem index="91" value="161"/>
+                    <StringItem index="92" value="162"/>
+                    <StringItem index="93" value="163"/>
+                    <StringItem index="94" value="164"/>
+                    <StringItem index="95" value="165"/>
+                    <StringItem index="96" value="166"/>
+                    <StringItem index="97" value="167"/>
+                    <StringItem index="98" value="168"/>
+                    <StringItem index="99" value="169"/>
+                    <StringItem index="100" value="170"/>
+                    <StringItem index="101" value="171"/>
+                    <StringItem index="102" value="172"/>
+                    <StringItem index="103" value="173"/>
+                    <StringItem index="104" value="174"/>
+                    <StringItem index="105" value="175"/>
+                    <StringItem index="106" value="176"/>
+                    <StringItem index="107" value="177"/>
+                    <StringItem index="108" value="178"/>
+                    <StringItem index="109" value="179"/>
+                    <StringItem index="110" value="180"/>
+                    <StringItem index="111" value="181"/>
+                    <StringItem index="112" value="182"/>
+                    <StringItem index="113" value="183"/>
+                    <StringItem index="114" value="184"/>
+                    <StringItem index="115" value="185"/>
+                    <StringItem index="116" value="186"/>
+                    <StringItem index="117" value="187"/>
+                    <StringItem index="118" value="188"/>
+                    <StringItem index="119" value="189"/>
+                    <StringItem index="120" value="190"/>
+                    <StringItem index="121" value="191"/>
+                    <StringItem index="122" value="192"/>
+                    <StringItem index="123" value="193"/>
+                    <StringItem index="124" value="194"/>
+                    <StringItem index="125" value="195"/>
+                    <StringItem index="126" value="196"/>
+                    <StringItem index="127" value="197"/>
+                    <StringItem index="128" value="198"/>
+                    <StringItem index="129" value="199"/>
+                    <StringItem index="130" value="200"/>
+                    <StringItem index="131" value="201"/>
+                    <StringItem index="132" value="202"/>
+                    <StringItem index="133" value="203"/>
+                    <StringItem index="134" value="204"/>
+                    <StringItem index="135" value="205"/>
+                    <StringItem index="136" value="206"/>
+                    <StringItem index="137" value="207"/>
+                    <StringItem index="138" value="208"/>
+                    <StringItem index="139" value="209"/>
+                    <StringItem index="140" value="210"/>
+                    <StringItem index="141" value="211"/>
+                    <StringItem index="142" value="212"/>
+                    <StringItem index="143" value="213"/>
+                    <StringItem index="144" value="214"/>
+                    <StringItem index="145" value="215"/>
+                    <StringItem index="146" value="216"/>
+                    <StringItem index="147" value="217"/>
+                    <StringItem index="148" value="218"/>
+                    <StringItem index="149" value="219"/>
+                    <StringItem index="150" value="220"/>
+                    <StringItem index="151" value="221"/>
+                    <StringItem index="152" value="222"/>
+                    <StringItem index="153" value="223"/>
+                    <StringItem index="154" value="224"/>
+                    <StringItem index="155" value="225"/>
+                    <StringItem index="156" value="226"/>
+                    <StringItem index="157" value="227"/>
+                    <StringItem index="158" value="228"/>
+                    <StringItem index="159" value="229"/>
+                    <StringItem index="160" value="230"/>
+                    <StringItem index="161" value="231"/>
+                    <StringItem index="162" value="232"/>
+                    <StringItem index="163" value="233"/>
+                    <StringItem index="164" value="234"/>
+                    <StringItem index="165" value="235"/>
+                    <StringItem index="166" value="236"/>
+                    <StringItem index="167" value="237"/>
+                    <StringItem index="168" value="238"/>
+                    <StringItem index="169" value="239"/>
+                    <StringItem index="170" value="240"/>
+                    <StringItem index="171" value="241"/>
+                    <StringItem index="172" value="242"/>
+                    <StringItem index="173" value="243"/>
+                    <StringItem index="174" value="244"/>
+                    <StringItem index="175" value="245"/>
+                    <StringItem index="176" value="246"/>
+                    <StringItem index="177" value="247"/>
+                    <StringItem index="178" value="248"/>
+                    <StringItem index="179" value="249"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="guncelleButon">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="G&#xfc;ncelle"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="guncelleButonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

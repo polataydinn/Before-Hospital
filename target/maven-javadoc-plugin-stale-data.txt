@@ -1,0 +1,18 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\Java\jdk1.8.0_271\jre\..\bin\javadoc.exe" @options @argfile"
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\allclasses-frame.html = 1608835318437
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\allclasses-noframe.html = 1608835318448
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\argfile = 1608835314710
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\constant-values.html = 1608835318039
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\deprecated-list.html = 1608835318406
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\help-doc.html = 1608835318489
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\index-all.html = 1608835318367
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\index.html = 1608835318460
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\options = 1608835314707
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\overview-tree.html = 1608835318321
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\package-list = 1608835317933
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\script.js = 1608835318531
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\serialized-form.html = 1608835318103
+C:\Users\aydin\Documents\NetBeansProjects\behos\target\site\apidocs\stylesheet.css = 1608835318521

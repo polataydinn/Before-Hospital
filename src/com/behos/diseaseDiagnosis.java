@@ -1,9 +1,16 @@
-package com.behos;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.mycompany.behos;
 
+/**
+ *
+ * @author aydin
+ */
 public class diseaseDiagnosis {
-
-
-// Her bir cevabın yüzdelik oranları aşağıdaki şekilde
+    // Her bir cevabın yüzdelik oranları aşağıdaki şekilde
     public static void yokCevap(int deger){
         if(deger == 0){
             CONST.hastalikTaniOran = CONST.hastalikTaniOran + 100;
